@@ -1,0 +1,1693 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-26T16:25:20+00:00",
+  "reference": "https://ninite.com/",
+  "apps": [
+    {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "category": "Web browsers",
+      "packageId": "Google.Chrome",
+      "page": "https://www.google.com/chrome/",
+      "description": "Fast, familiar browsing",
+      "color": "#4285f4",
+      "ninite": true,
+      "version": "156.0.8078.48",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:11:48+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/g/Google/Chrome/156.0.8078.48/Google.Chrome.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "E906538E01F465666C0E7F14BB9B754B8D2F23F8C386B8DDCDE4B934E8C892A6",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "category": "Web browsers",
+      "packageId": "Mozilla.Firefox",
+      "page": "https://www.mozilla.org/firefox/all/desktop-release/",
+      "description": "Independent, privacy-minded browser",
+      "color": "#ff7139",
+      "ninite": true,
+      "version": "157.0.1",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:11:48+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/m/Mozilla/Firefox/157.0.1/Mozilla.Firefox.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/157.0.1/win64-aarch64/en-US/Firefox%20Setup%20157.0.1.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "FC86CD7E73B68E876770852BF4741B046441069AD57CEE88626311CAD12A7206",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "edge",
+      "name": "Microsoft Edge",
+      "category": "Web browsers",
+      "packageId": "Microsoft.Edge",
+      "page": "https://www.microsoft.com/edge/download",
+      "description": "Microsoft’s everyday browser",
+      "color": "#087fce",
+      "ninite": true,
+      "version": "156.0.4314.42",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:11:48+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/m/Microsoft/Edge/156.0.4314.42/Microsoft.Edge.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://download.microsoft.com/download/2281f47e-9fc3-455e-9fad-1e0eac990e5e/MicrosoftEdgeEnterpriseARM64.msi",
+          "format": "msi",
+          "label": "MSI · machine · en-US",
+          "scope": "machine",
+          "sha256": "280F4711FD8D90D84E9AE8B660FBC70CB86759352AECB8FB42B00C11D2F6CC20",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "brave",
+      "name": "Brave",
+      "category": "Web browsers",
+      "packageId": "Brave.Brave",
+      "page": "https://brave.com/download/",
+      "description": "Browsing with built-in ad blocking",
+      "color": "#fb542b",
+      "ninite": true,
+      "version": "155.1.97.56",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:11:48+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/b/Brave/Brave/155.1.97.56/Brave.Brave.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/brave/brave-browser/releases/download/v1.97.56/BraveBrowserStandaloneSilentSetupArm64.exe",
+          "format": "exe",
+          "label": "EXE · user",
+          "scope": "user",
+          "sha256": "A25EA0FE90C978F313AEE8A49EA74B2255B5331B9B038FA53D0AB12BD61554C6",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://github.com/brave/brave-browser/releases/download/v1.97.56/BraveBrowserStandaloneSetupArm64.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "E82FBCD32E3A37D88DF82DAA7A329EE1B3F60F4D82EA9401B73C7609070454C5",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "vivaldi",
+      "name": "Vivaldi",
+      "category": "Web browsers",
+      "packageId": "Vivaldi.Vivaldi",
+      "page": "https://vivaldi.com/download/",
+      "description": "A browser that adapts to you",
+      "color": "#ef3939",
+      "ninite": true,
+      "version": "8.2.4133.94",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:11:48+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/v/Vivaldi/Vivaldi/8.2.4133.94/Vivaldi.Vivaldi.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.94.arm64.exe",
+          "format": "exe",
+          "label": "EXE · user",
+          "scope": "user",
+          "sha256": "B7893121FC64BAE3FFF02E35D25F7FD7CEE24BDCE280D3C61BA4198BDA889C4D",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "opera",
+      "name": "Opera",
+      "category": "Web browsers",
+      "packageId": "Opera.Opera",
+      "page": "https://www.opera.com/download",
+      "description": "Browser with integrated tools",
+      "color": "#e60033",
+      "ninite": true,
+      "version": "137.0.6036.39",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:11:48+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/o/Opera/Opera/137.0.6036.39/Opera.Opera.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://get.geo.opera.com/pub/opera/desktop/137.0.6036.39/win/Opera_137.0.6036.39_Setup_arm64.exe",
+          "format": "exe",
+          "label": "EXE · user",
+          "scope": "user",
+          "sha256": "768633C5AB651A9DA410F9AA1F36C256700E2BB535218447924A4CC86BD7B18C",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "category": "Messaging",
+      "packageId": "Zoom.Zoom",
+      "page": "https://www.zoom.com/download",
+      "description": "Video meetings and collaboration",
+      "color": "#2d8cff",
+      "ninite": true,
+      "version": "7.2.48556",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:11:55+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/z/Zoom/Zoom/7.2.48556/Zoom.Zoom.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://zoom.us/client/7.2.1.48556/ZoomInstallerFull.msi?archType=winarm64",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "DF451142EEA229B371C732A354A16C578744A48B4B69D2E2E0C4529EF590BEE5",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "category": "Messaging",
+      "packageId": "Discord.Discord",
+      "page": "https://discord.com/download",
+      "description": "Community voice and chat",
+      "color": "#5865f2",
+      "ninite": true,
+      "version": "1.0.9265",
+      "status": "not-indexed",
+      "checkedAt": "2026-10-26T16:11:55+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/d/Discord/Discord/1.0.9265/Discord.Discord.installer.yaml",
+      "downloads": []
+    },
+    {
+      "id": "teams",
+      "name": "Microsoft Teams",
+      "category": "Messaging",
+      "packageId": "Microsoft.Teams",
+      "page": "https://www.microsoft.com/microsoft-teams/download-app",
+      "description": "Meet, chat, and work together",
+      "color": "#6264a7",
+      "ninite": true,
+      "version": "26225.1806.5074.1452",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:11:55+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/m/Microsoft/Teams/26225.1806.5074.1452/Microsoft.Teams.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-arm64/26225.1806.5074.1452/MSTeams-arm64.msix",
+          "format": "msix",
+          "label": "MSIX",
+          "scope": "",
+          "sha256": "ADB9B50EF9B395A8DAF8E730D180871563C51AADBB0A57382B2C6A96A725998E",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-arm64/26225.1806.5074.1452/MSTeams-arm64.msix?p",
+          "format": "msix",
+          "label": "MSIX",
+          "scope": "",
+          "sha256": "ADB9B50EF9B395A8DAF8E730D180871563C51AADBB0A57382B2C6A96A725998E",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "category": "Messaging",
+      "packageId": "SlackTechnologies.Slack",
+      "page": "https://slack.com/downloads/windows",
+      "description": "Channels for your team",
+      "color": "#611f69",
+      "ninite": true,
+      "version": "4.52.182",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:11:55+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/s/SlackTechnologies/Slack/4.52.182/SlackTechnologies.Slack.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://downloads.slack-edge.com/desktop-releases/windows/arm64/4.52.182/Slack.msix",
+          "format": "msix",
+          "label": "MSIX",
+          "scope": "",
+          "sha256": "EAB4C88086BB93A2F4BBBDEBC8E3B8193A94FCE99D7CA18525B567670E7257E3",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "category": "Messaging",
+      "packageId": "Telegram.TelegramDesktop",
+      "page": "https://desktop.telegram.org/",
+      "description": "Cloud-based messaging",
+      "color": "#26a5e4",
+      "ninite": true,
+      "version": "7.3.3",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:11:55+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/t/Telegram/TelegramDesktop/7.3.3/Telegram.TelegramDesktop.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.3.3/td-setup-win-arm-7.3.3.exe",
+          "format": "exe",
+          "label": "EXE · user",
+          "scope": "user",
+          "sha256": "49032F25F6F86F1339CB2A8D19D1A00B005DBC78EE86F6679F47B3477C472A92",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.3.3/td-portable-win-arm-7.3.3.zip",
+          "format": "zip",
+          "label": "ZIP",
+          "scope": "",
+          "sha256": "909023F616EFC8E43669F4306C22DD6FE13808CE537FA1DEA853D9BD47BDB762",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "thunderbird",
+      "name": "Thunderbird",
+      "category": "Messaging",
+      "packageId": "Mozilla.Thunderbird",
+      "page": "https://www.thunderbird.net/download/",
+      "description": "Email, calendar, and contacts",
+      "color": "#0a84ff",
+      "ninite": true,
+      "version": "158.0.1",
+      "status": "not-indexed",
+      "checkedAt": "2026-10-26T16:11:55+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/m/Mozilla/Thunderbird/158.0.1/Mozilla.Thunderbird.installer.yaml",
+      "downloads": []
+    },
+    {
+      "id": "vlc",
+      "name": "VLC media player",
+      "category": "Media",
+      "packageId": "VideoLAN.VLC",
+      "page": "https://www.videolan.org/vlc/download-windows.html",
+      "description": "Play almost any media file",
+      "color": "#ef7d00",
+      "ninite": true,
+      "version": "3.0.24",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:04+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/v/VideoLAN/VLC/3.0.24/VideoLAN.VLC.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://download.videolan.org/pub/videolan/vlc/3.0.24/winarm64/vlc-3.0.24-winarm64.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "1377F8A7AA8094CF73BC5A36428A652F3DA41017FE16A522E0F7941723000BFB",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://download.videolan.org/pub/videolan/vlc/3.0.24/winarm64/vlc-3.0.24-winarm64.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "A9F5268006D51CF593A8D20EDAC3CC70AA65FD87AC37FA0A62C7509531996AEE",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "foobar2000",
+      "name": "foobar2000",
+      "category": "Media",
+      "packageId": "PeterPawlowski.foobar2000",
+      "page": "https://www.foobar2000.org/download",
+      "description": "Lightweight, customizable audio",
+      "color": "#424242",
+      "ninite": true,
+      "version": "2.26.1",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:21:39+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f739ac40052c7c73c9c4889458685abd5b5546c6/manifests/p/PeterPawlowski/foobar2000/2.26.1/PeterPawlowski.foobar2000.installer.yaml",
+      "sourceType": "winget",
+      "note": "",
+      "downloads": [
+        {
+          "url": "https://www.foobar2000.org/files/foobar2000-arm64ec_v2.26.1.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "911187030574183D223CCBD309953C6A3800840CFBBD2738CA344A89A104D1EC",
+          "architecture": "arm64",
+          "buildType": "arm64ec"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "category": "Media",
+      "packageId": "Spotify.Spotify",
+      "page": "https://www.spotify.com/download/windows/",
+      "description": "Music and podcasts",
+      "color": "#16863c",
+      "ninite": true,
+      "version": "1.3.6.1921.g7086c071a617",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:04+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/s/Spotify/Spotify/1.3.6.1921.g7086c071a617/Spotify.Spotify.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://download.scdn.co/SpotifyFullSetupARM64.exe",
+          "format": "exe",
+          "label": "EXE · user",
+          "scope": "user",
+          "sha256": "1AB0FF830A6996E69F8DB9CC5B7FB08BD6E87FC16E70642F8C5DFBE711EE948D",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "handbrake",
+      "name": "HandBrake",
+      "category": "Media",
+      "packageId": "HandBrake.HandBrake",
+      "page": "https://handbrake.fr/downloads.php",
+      "description": "Convert and compress video",
+      "color": "#597928",
+      "ninite": true,
+      "version": "1.11.2",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:04+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/h/HandBrake/HandBrake/1.11.2/HandBrake.HandBrake.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-arm64-Win_GUI.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "FB69BAFCEB4E0EC208E3A7EA08EB1D119C49EB42E9954AD665CC75AA94D020B8",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "obs",
+      "name": "OBS Studio",
+      "category": "Media",
+      "packageId": "OBSProject.OBSStudio",
+      "page": "https://obsproject.com/download",
+      "description": "Stream and record your screen",
+      "color": "#302e31",
+      "ninite": true,
+      "version": "33.0.0",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:04+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/o/OBSProject/OBSStudio/33.0.0/OBSProject.OBSStudio.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.0/OBS-Studio-33.0.0-Windows-arm64.zip",
+          "format": "zip",
+          "label": "ZIP",
+          "scope": "",
+          "sha256": "02C53D7BFF3F9C159401DA79FC375D7B75B00C9CA62D2B4EC5FC05A575D2FA1F",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "audacity",
+      "name": "Audacity",
+      "category": "Media",
+      "packageId": "Audacity.Audacity",
+      "page": "https://www.audacityteam.org/download/windows/",
+      "description": "Record and edit audio",
+      "color": "#0869c5",
+      "ninite": true,
+      "version": "4.0.1.262721353",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:04+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/a/Audacity/Audacity/4.0.1.262721353/Audacity.Audacity.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-win-4.0.1-arm64.msi",
+          "format": "msi",
+          "label": "MSI",
+          "scope": "",
+          "sha256": "B6606D9BCB1A49254F1966C7EDC68D78F7EADD04EEBE7D4676350F32CA675F49",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "category": "Design & images",
+      "packageId": "BlenderFoundation.Blender",
+      "page": "https://www.blender.org/download/",
+      "description": "Create in 3D",
+      "color": "#e87d0d",
+      "ninite": true,
+      "version": "5.2.3",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:11+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/b/BlenderFoundation/Blender/5.2.3/BlenderFoundation.Blender.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://download.blender.org/release/Blender5.2/blender-5.2.3-windows-arm64.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "79764A833E53E932886584233F3E3F4F08187E6857E36EB863EB4A666C0903C9",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "gimp",
+      "name": "GIMP",
+      "category": "Design & images",
+      "packageId": "GIMP.GIMP.3",
+      "page": "https://www.gimp.org/downloads/",
+      "description": "Open-source image editing",
+      "color": "#62594b",
+      "ninite": true,
+      "version": "3.2.6",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:25:16+00:00",
+      "source": "https://www.gimp.org/downloads/",
+      "sourceType": "publisher",
+      "note": "One publisher installer includes both x86_64 and ARM64 builds.",
+      "downloads": [
+        {
+          "url": "https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.6-setup.exe",
+          "format": "exe",
+          "label": "EXE · universal",
+          "scope": "",
+          "architecture": "arm64",
+          "sha256": "9337cccbc01d4098ee7a3dab215b3afbe6ece99c5287c92441d6f12cf541ebca",
+          "buildType": "universal"
+        }
+      ]
+    },
+    {
+      "id": "krita",
+      "name": "Krita",
+      "category": "Design & images",
+      "packageId": "KDE.Krita",
+      "page": "https://krita.org/en/download/",
+      "description": "Digital painting and illustration",
+      "color": "#b348bd",
+      "ninite": true,
+      "version": "5.3.4.1",
+      "status": "not-indexed",
+      "checkedAt": "2026-10-26T16:12:11+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/k/KDE/Krita/5.3.4.1/KDE.Krita.installer.yaml",
+      "downloads": []
+    },
+    {
+      "id": "inkscape",
+      "name": "Inkscape",
+      "category": "Design & images",
+      "packageId": "Inkscape.Inkscape",
+      "page": "https://inkscape.org/release/",
+      "description": "Vector graphics and illustration",
+      "color": "#41464f",
+      "ninite": true,
+      "version": "1.4.4",
+      "status": "not-indexed",
+      "checkedAt": "2026-10-26T16:21:39+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f739ac40052c7c73c9c4889458685abd5b5546c6/manifests/i/Inkscape/Inkscape/1.4.4/Inkscape.Inkscape.installer.yaml",
+      "sourceType": "winget",
+      "note": "An ARM64-tagged manifest entry has a conflicting x64/x86 filename. Its download is withheld pending publisher confirmation.",
+      "downloads": []
+    },
+    {
+      "id": "libreoffice",
+      "name": "LibreOffice",
+      "category": "Documents",
+      "packageId": "TheDocumentFoundation.LibreOffice",
+      "page": "https://www.libreoffice.org/download/download-libreoffice/",
+      "description": "Documents, spreadsheets, presentations",
+      "color": "#18a35b",
+      "ninite": true,
+      "version": "26.8.1.1",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:11+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/t/TheDocumentFoundation/LibreOffice/26.8.1.1/TheDocumentFoundation.LibreOffice.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://download.documentfoundation.org/libreoffice/stable/26.8.1/win/aarch64/LibreOffice_26.8.1_Win_aarch64.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "97C2173752325AF1DA3D8731F41C8E09A7C4AD491CF55D9B1069FADB5668E6D7",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "sumatrapdf",
+      "name": "SumatraPDF",
+      "category": "Documents",
+      "packageId": "SumatraPDF.SumatraPDF",
+      "page": "https://www.sumatrapdfreader.org/download-free-pdf-viewer",
+      "description": "Small, fast PDF reader",
+      "color": "#c59b0b",
+      "ninite": true,
+      "version": "3.6.1",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:11+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/s/SumatraPDF/SumatraPDF/3.6.1/SumatraPDF.SumatraPDF.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://www.sumatrapdfreader.org/dl/rel/3.6.1/SumatraPDF-3.6.1-arm64-install.exe",
+          "format": "exe",
+          "label": "EXE · user",
+          "scope": "user",
+          "sha256": "758E6E870FFEB87EA44F4424F47043578CA35462CF026F43F6FF9FD334B3D0FA",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://www.sumatrapdfreader.org/dl/rel/3.6.1/SumatraPDF-3.6.1-arm64.zip",
+          "format": "zip",
+          "label": "ZIP",
+          "scope": "",
+          "sha256": "F21091CA6741E4049B0CA375121708A7959803D39336F0468084808943667FFE",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "7zip",
+      "name": "7-Zip",
+      "category": "Compression",
+      "packageId": "7zip.7zip",
+      "page": "https://www.7-zip.org/download.html",
+      "description": "Small app. Big compression.",
+      "color": "#4b5563",
+      "ninite": true,
+      "version": "26.05",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:24+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/7/7zip/7zip/26.05/7zip.7zip.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-arm64.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "86D5790D5DD84CAB4636C3BB7FAB10D3ED7CD3E57E6119401BD2769E28165268",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "peazip",
+      "name": "PeaZip",
+      "category": "Compression",
+      "packageId": "Giorgiotani.Peazip",
+      "page": "https://peazip.github.io/peazip-arm64.html",
+      "description": "Open-source archive manager",
+      "color": "#559d24",
+      "ninite": true,
+      "version": "11.3.0",
+      "status": "not-indexed",
+      "checkedAt": "2026-10-26T16:12:25+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/g/Giorgiotani/Peazip/11.3.0/Giorgiotani.Peazip.installer.yaml",
+      "downloads": []
+    },
+    {
+      "id": "winrar",
+      "name": "WinRAR",
+      "category": "Compression",
+      "packageId": "RARLab.WinRAR",
+      "page": "https://www.rarlab.com/download.htm",
+      "description": "Archive manager · trialware",
+      "color": "#8748a5",
+      "ninite": true,
+      "version": "7.23.0",
+      "status": "not-indexed",
+      "checkedAt": "2026-10-26T16:12:26+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/r/RARLab/WinRAR/7.23.0/RARLab.WinRAR.installer.yaml",
+      "downloads": []
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "category": "Passwords & storage",
+      "packageId": "Bitwarden.Bitwarden",
+      "page": "https://bitwarden.com/download/",
+      "description": "Open-source password manager",
+      "color": "#175ddc",
+      "ninite": true,
+      "version": "2026.10.1",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:21:39+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f739ac40052c7c73c9c4889458685abd5b5546c6/manifests/b/Bitwarden/Bitwarden/2026.10.1/Bitwarden.Bitwarden.installer.yaml",
+      "sourceType": "winget",
+      "note": "",
+      "downloads": [
+        {
+          "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.1/Bitwarden-Installer-2026.10.1.exe",
+          "format": "exe",
+          "label": "EXE · user",
+          "scope": "user",
+          "sha256": "D4AAAD518E6A088CAE48AF41A1F49045D7579AB5957C76FCC06BBF0FBF89FE69",
+          "architecture": "arm64",
+          "buildType": "universal"
+        },
+        {
+          "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.1/Bitwarden-Portable-2026.10.1.exe",
+          "format": "exe",
+          "label": "EXE · portable",
+          "scope": "",
+          "sha256": "DB04FC8AE05B71B5CCD3292CC95C5F47957A19FD0AA74447944333BE7A4B7D8C",
+          "architecture": "arm64",
+          "buildType": "universal"
+        }
+      ]
+    },
+    {
+      "id": "1password",
+      "name": "1Password",
+      "category": "Passwords & storage",
+      "packageId": "AgileBits.1Password",
+      "page": "https://1password.com/downloads/windows/",
+      "description": "Passwords, passkeys, and secrets",
+      "color": "#1769aa",
+      "ninite": true,
+      "version": "8.12.36.40",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:24+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/a/AgileBits/1Password/8.12.36.40/AgileBits.1Password.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.36.msixbundle",
+          "format": "msixbundle",
+          "label": "MSIXBUNDLE",
+          "scope": "",
+          "sha256": "ECD3126972DDBAE031BC81770C864CDC17BA4CDD5DA5443EF86E236E4503E8FE",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "category": "Passwords & storage",
+      "packageId": "Dropbox.Dropbox",
+      "page": "https://www.dropbox.com/install",
+      "description": "Files synced across devices",
+      "color": "#0061ff",
+      "ninite": true,
+      "version": "270.4.3312",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:25+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/d/Dropbox/Dropbox/270.4.3312/Dropbox.Dropbox.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://edge.dropboxstatic.com/dbx-releng/client/omaha4/Dropbox%20270.4.3312%20Offline%20Installer.arm64.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "9DE4CD1B3F1FFC5AA61267F843768055C4B903F1D8559F6B1D663BAFEC2E6337",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20270.4.3312%20Enterprise%20Installer.arm64.msi",
+          "format": "msi",
+          "label": "MSI · machine · en-US",
+          "scope": "machine",
+          "sha256": "3D32AB642F9E871F6D06DFCBF30BB4997762C892FA1740ADF2FD5F6889E3A0D2",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "googledrive",
+      "name": "Google Drive",
+      "category": "Passwords & storage",
+      "packageId": "Google.GoogleDrive",
+      "page": "https://www.google.com/drive/download/",
+      "description": "Your files, available everywhere",
+      "color": "#1fa463",
+      "ninite": true,
+      "version": "132.0.0.0",
+      "status": "not-indexed",
+      "checkedAt": "2026-10-26T16:12:36+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/g/Google/GoogleDrive/132.0.0.0/Google.GoogleDrive.installer.yaml",
+      "downloads": []
+    },
+    {
+      "id": "onedrive",
+      "name": "OneDrive",
+      "category": "Passwords & storage",
+      "packageId": "Microsoft.OneDrive",
+      "page": "https://www.microsoft.com/microsoft-365/onedrive/download",
+      "description": "Microsoft cloud file sync",
+      "color": "#0875d1",
+      "ninite": true,
+      "version": "26.183.0920.0005",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:34+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/m/Microsoft/OneDrive/26.183.0920.0005/Microsoft.OneDrive.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://oneclient.sfx.ms/Win/Installers/26.183.0920.0005/arm64/OneDriveSetup.exe",
+          "format": "exe",
+          "label": "EXE · user",
+          "scope": "user",
+          "sha256": "DE4A896484873DE52AEFCF77CB33E046A95EA87CD0FAC1F08DFE0EF2C808DC3E",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "wireshark",
+      "name": "Wireshark",
+      "category": "Network & remote",
+      "packageId": "WiresharkFoundation.Wireshark",
+      "page": "https://www.wireshark.org/download.html",
+      "description": "Look inside your network traffic",
+      "color": "#167da5",
+      "ninite": true,
+      "version": "4.6.9",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:21:35+00:00",
+      "source": "https://www.wireshark.org/download.html",
+      "sourceType": "publisher",
+      "note": "Live packet capture also requires a compatible Npcap installation.",
+      "downloads": [
+        {
+          "url": "https://2.na.dl.wireshark.org/win64/Wireshark-4.6.9-arm64.exe",
+          "format": "exe",
+          "label": "EXE",
+          "scope": "machine",
+          "architecture": "arm64",
+          "sha256": ""
+        }
+      ]
+    },
+    {
+      "id": "tailscale",
+      "name": "Tailscale",
+      "category": "Network & remote",
+      "packageId": "Tailscale.Tailscale",
+      "page": "https://tailscale.com/download/windows",
+      "description": "Connect your devices securely",
+      "color": "#494949",
+      "ninite": true,
+      "version": "1.104.2",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:35+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/t/Tailscale/Tailscale/1.104.2/Tailscale.Tailscale.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://pkgs.tailscale.com/stable/tailscale-setup-full-1.104.2.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "08C99110EA006F2924322C814991D995834E92F9EC7233B1597668012D9A24C5",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://pkgs.tailscale.com/stable/tailscale-setup-1.104.2-arm64.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "457D31E4DCEB2D3F0510588342D071C81647627E6BA9985C9D47BCF8FA3E9148",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "wireguard",
+      "name": "WireGuard",
+      "category": "Network & remote",
+      "packageId": "WireGuard.WireGuard",
+      "page": "https://www.wireguard.com/install/",
+      "description": "Modern VPN tunneling",
+      "color": "#88171a",
+      "ninite": true,
+      "version": "1.1.1",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:38+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/w/WireGuard/WireGuard/1.1.1/WireGuard.WireGuard.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://download.wireguard.com/windows-client/wireguard-arm64-1.1.1.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "8336335C738D4AFF040FA9D11B752DA65A80B6F41D3262D6BA5E82F97EBD1BD4",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "rustdesk",
+      "name": "RustDesk",
+      "category": "Network & remote",
+      "packageId": "RustDesk.RustDesk",
+      "page": "https://rustdesk.com/",
+      "description": "Open-source remote desktop",
+      "color": "#2373cc",
+      "ninite": true,
+      "version": "1.5.0",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:21:36+00:00",
+      "source": "https://github.com/rustdesk/rustdesk/releases/tag/1.5.0",
+      "sourceType": "publisher",
+      "note": "",
+      "downloads": [
+        {
+          "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-aarch64.exe",
+          "format": "exe",
+          "label": "EXE",
+          "scope": "",
+          "architecture": "arm64",
+          "sha256": "b660dbd7fd5ba4723447bb642dd95063f3a2abad76f5544d024f3b1c029dd87e"
+        },
+        {
+          "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-aarch64.msi",
+          "format": "msi",
+          "label": "MSI",
+          "scope": "",
+          "architecture": "arm64",
+          "sha256": "ec4dc1afa5ae3d6a8ecceab1a681bfd17ed56400056c8fa1c182decf43eab1f7"
+        }
+      ]
+    },
+    {
+      "id": "teamviewer",
+      "name": "TeamViewer",
+      "category": "Network & remote",
+      "packageId": "TeamViewer.TeamViewer",
+      "page": "https://www.teamviewer.com/download/windows/",
+      "description": "Remote support and access",
+      "color": "#0874db",
+      "ninite": true,
+      "version": "15.82.6",
+      "status": "not-indexed",
+      "checkedAt": "2026-10-26T16:12:46+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/t/TeamViewer/TeamViewer/15.82.6/TeamViewer.TeamViewer.installer.yaml",
+      "downloads": []
+    },
+    {
+      "id": "putty",
+      "name": "PuTTY",
+      "category": "Network & remote",
+      "packageId": "PuTTY.PuTTY",
+      "page": "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html",
+      "description": "SSH and serial terminal",
+      "color": "#3357a8",
+      "ninite": true,
+      "version": "0.85.0.0",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:46+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/p/PuTTY/PuTTY/0.85.0.0/PuTTY.PuTTY.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://the.earth.li/~sgtatham/putty/0.85/wa64/putty-arm64-0.85-installer.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "F26059B6F6CFA7BADD59A1F133AF4338AD3EC68E8B0AEB0EC1DFD7D63E1C66D4",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://the.earth.li/~sgtatham/putty/0.85/wa64/putty.zip",
+          "format": "zip",
+          "label": "ZIP",
+          "scope": "",
+          "sha256": "BD3A8E6EB9D7D14E0A7D7E9B461A1FCA70211F032C2B5FF2B16E5952867930F6",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "winscp",
+      "name": "WinSCP",
+      "category": "Network & remote",
+      "packageId": "WinSCP.WinSCP",
+      "page": "https://winscp.net/eng/download.php",
+      "description": "SFTP and file transfer",
+      "color": "#267c39",
+      "ninite": true,
+      "version": "6.7",
+      "status": "not-indexed",
+      "checkedAt": "2026-10-26T16:12:46+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/w/WinSCP/WinSCP/6.7/WinSCP.WinSCP.installer.yaml",
+      "downloads": []
+    },
+    {
+      "id": "powertoys",
+      "name": "PowerToys",
+      "category": "Utilities",
+      "packageId": "Microsoft.PowerToys",
+      "page": "https://github.com/microsoft/PowerToys/releases",
+      "description": "Powerful Windows productivity tools",
+      "color": "#7046c4",
+      "ninite": true,
+      "version": "0.101.2362.0",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:46+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/m/Microsoft/PowerToys/0.101.2362.0/Microsoft.PowerToys.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/microsoft/PowerToys/releases/download/v0.101.2362.0/PowerToysUserSetup-0.101.2362.0-arm64.exe",
+          "format": "exe",
+          "label": "EXE · user",
+          "scope": "user",
+          "sha256": "4C2AE5156B7E4F1F5BA744BA6E1CF6BFE3D9614978356E6B00AA47CAB86350DB",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://github.com/microsoft/PowerToys/releases/download/v0.101.2362.0/PowerToysSetup-0.101.2362.0-arm64.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "BEE299302C0CD59E282BDC92CC8AAF737713EABCCA77BB8BF09F43745D43CD93",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "category": "Utilities",
+      "packageId": "voidtools.Everything",
+      "page": "https://www.voidtools.com/downloads/",
+      "description": "Find files instantly",
+      "color": "#ce7009",
+      "ninite": true,
+      "version": "1.4.1.1032",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:46+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/v/voidtools/Everything/1.4.1.1032/voidtools.Everything.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://www.voidtools.com/Everything-1.4.1.1032.ARM64.zip",
+          "format": "zip",
+          "label": "ZIP",
+          "scope": "",
+          "sha256": "23DCA1A64574BF30C9988BBAF5F1D201A0EC7EE9A15E12270AE92A52183CCCC8",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "windirstat",
+      "name": "WinDirStat",
+      "category": "Utilities",
+      "packageId": "WinDirStat.WinDirStat",
+      "page": "https://windirstat.net/download.html",
+      "description": "See what’s using your disk space",
+      "color": "#3c8c85",
+      "ninite": true,
+      "version": "2.9.3",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:55+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/w/WinDirStat/WinDirStat/2.9.3/WinDirStat.WinDirStat.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/windirstat/windirstat/releases/download/release/v2.9.3/WinDirStat-arm64.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "4B6867DFFBB0687CABFCF0A89031C95A0CBB40B36615BB73DAD80E4804D59F71",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python 3.14",
+      "category": "Developer tools",
+      "packageId": "Python.Python.3.14",
+      "page": "https://www.python.org/downloads/windows/",
+      "description": "A language for ideas and automation",
+      "color": "#3976a5",
+      "ninite": true,
+      "version": "3.14.7",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:25:20+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f739ac40052c7c73c9c4889458685abd5b5546c6/manifests/p/Python/Python/3/14/3.14.7/Python.Python.3.14.installer.yaml",
+      "sourceType": "winget",
+      "note": "",
+      "downloads": [
+        {
+          "url": "https://www.python.org/ftp/python/3.14.7/python-3.14.7-arm64.exe",
+          "format": "exe",
+          "label": "EXE · user",
+          "scope": "user",
+          "sha256": "9A3FE120CC81BC2CB099550F794D8356811F96A86C7F438519243C3485DB928D",
+          "architecture": "arm64",
+          "buildType": "arm64"
+        },
+        {
+          "url": "https://www.python.org/ftp/python/3.14.7/python-3.14.7-arm64.zip",
+          "format": "zip",
+          "label": "ZIP",
+          "scope": "",
+          "sha256": "88953B39002CAF974C081469356CAF6220FD4EBCD1BC46AEF099A03B0A7E8447",
+          "architecture": "arm64",
+          "buildType": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "category": "Developer tools",
+      "packageId": "Git.Git",
+      "page": "https://git-scm.com/downloads/win",
+      "description": "Distributed version control",
+      "color": "#ef5033",
+      "ninite": true,
+      "version": "2.56.0.3",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:55+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/g/Git/Git/2.56.0.3/Git.Git.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/Git-2.56.0.3-arm64.exe",
+          "format": "exe",
+          "label": "EXE · user",
+          "scope": "user",
+          "sha256": "53CFE6358A1F0573C8C777C9AD71151DF8F29986759C689C7B8A5CBB84CCA495",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "Docker Desktop",
+      "category": "Developer tools",
+      "packageId": "Docker.DockerDesktop",
+      "page": "https://docs.docker.com/desktop/setup/install/windows-install/",
+      "description": "Containers on Windows · WSL 2 required",
+      "color": "#1975d4",
+      "ninite": true,
+      "version": "4.96.3",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:55+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/d/Docker/DockerDesktop/4.96.3/Docker.DockerDesktop.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://desktop.docker.com/win/main/arm64/244472/Docker%20Desktop%20Installer.exe",
+          "format": "exe",
+          "label": "EXE · machine · en-US",
+          "scope": "machine",
+          "sha256": "7E9D3B4D090527BDB89999ED87E0DC42E8B4B5C3BFDF3D252C8CC7D2FDDEADB4",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js LTS",
+      "category": "Developer tools",
+      "packageId": "OpenJS.NodeJS.LTS",
+      "page": "https://nodejs.org/en/download",
+      "description": "JavaScript beyond the browser",
+      "color": "#4c8e35",
+      "ninite": true,
+      "version": "24.22.1",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:12:55+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/o/OpenJS/NodeJS/LTS/24.22.1/OpenJS.NodeJS.LTS.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://nodejs.org/dist/v24.22.1/node-v24.22.1-arm64.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "5FAF40B7CBA01EBA47DFFF7B5322979F27D0E8F042BAB96CC567A3DF01EC9796",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "notepadpp",
+      "name": "Notepad++",
+      "category": "Developer tools",
+      "packageId": "Notepad++.Notepad++",
+      "page": "https://notepad-plus-plus.org/downloads/",
+      "description": "A fast, flexible text editor",
+      "color": "#5d912e",
+      "ninite": true,
+      "version": "8.9.8.1",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:03+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/n/Notepad++/Notepad++/8.9.8.1/Notepad++.Notepad++.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.8.1/npp.8.9.8.1.Installer.arm64.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "A53C5116B55AC93FEDD7808E71096BADECBF10A55F2BE9B28B741591B8917A73",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.8.1/npp.8.9.8.1.portable.arm64.zip",
+          "format": "zip",
+          "label": "ZIP",
+          "scope": "",
+          "sha256": "43BF78C7569FD43B03D4F86A1073AC4306B31099E4487BDBF536C42D16D03F48",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "sublime",
+      "name": "Sublime Text",
+      "category": "Developer tools",
+      "packageId": "SublimeHQ.SublimeText.4",
+      "page": "https://www.sublimetext.com/download",
+      "description": "Text editing for code · trialware",
+      "color": "#dd9600",
+      "ninite": true,
+      "version": "4.0.0.421500",
+      "status": "not-indexed",
+      "checkedAt": "2026-10-26T16:13:16+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/s/SublimeHQ/SublimeText/4/4.0.0.421500/SublimeHQ.SublimeText.4.installer.yaml",
+      "downloads": []
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "category": "Developer tools",
+      "packageId": "Microsoft.VisualStudioCode",
+      "page": "https://code.visualstudio.com/download",
+      "description": "Your everyday code editor",
+      "color": "#007acc",
+      "ninite": true,
+      "version": "1.141.2",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:25:20+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f739ac40052c7c73c9c4889458685abd5b5546c6/manifests/m/Microsoft/VisualStudioCode/1.142.0/Microsoft.VisualStudioCode.installer.yaml",
+      "sourceType": "winget",
+      "note": "WinGet lists package version 1.142.0, but its ARM64 installer filenames identify 1.141.2. The displayed version follows the linked artifacts.",
+      "downloads": [
+        {
+          "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/16507d91be0dc1ce4f94c04d4d0430210b8685d9/VSCodeUserSetup-arm64-1.141.2.exe",
+          "format": "exe",
+          "label": "EXE · user · en-US",
+          "scope": "user",
+          "sha256": "7EA3A25FA828C229DC8B79187EA3C6A35178A9243DD9AD1C1A4E6458CD60D8ED",
+          "architecture": "arm64",
+          "buildType": "arm64"
+        },
+        {
+          "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/16507d91be0dc1ce4f94c04d4d0430210b8685d9/VSCodeSetup-arm64-1.141.2.exe",
+          "format": "exe",
+          "label": "EXE · machine · en-US",
+          "scope": "machine",
+          "sha256": "68A31F854F0D1DFF3F17DFE02ACBAD9238B1888DBD5BD344185C067B034B14FD",
+          "architecture": "arm64",
+          "buildType": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "category": "Developer tools",
+      "packageId": "Anysphere.Cursor",
+      "page": "https://cursor.com/downloads",
+      "description": "Code editor with AI assistance",
+      "color": "#3b434e",
+      "ninite": true,
+      "version": "3.20.14",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:10+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/a/Anysphere/Cursor/3.20.14/Anysphere.Cursor.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://downloads.cursor.com/production/67ac8ff8cc118b1eddcb5f2de564c20cffcae94d/win32/arm64/user-setup/CursorUserSetup-arm64-3.20.14.exe",
+          "format": "exe",
+          "label": "EXE · user",
+          "scope": "user",
+          "sha256": "F5BABE7701F1DA138D124590B36BDA4CDCACB615C7BD7855600F496016D8F6A8",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://downloads.cursor.com/production/67ac8ff8cc118b1eddcb5f2de564c20cffcae94d/win32/arm64/system-setup/CursorSetup-arm64-3.20.14.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "AD5C0A02971A7B61B85CC1DF4D1E314E93B928A9924DDFE94B0BD83695EC1BD2",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "winmerge",
+      "name": "WinMerge",
+      "category": "Developer tools",
+      "packageId": "WinMerge.WinMerge",
+      "page": "https://winmerge.org/downloads/",
+      "description": "Compare and merge files",
+      "color": "#946a1c",
+      "ninite": true,
+      "version": "2.16.58.2",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:13+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/w/WinMerge/WinMerge/2.16.58.2/WinMerge.WinMerge.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.58.2/WinMerge-2.16.58.2-ARM64-Setup.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "3DCD40D79FEE3F01DA7E12765D5DC3F4CBEC8E038749B791697B573BA1D3A8CE",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "dotnet8",
+      "name": ".NET Desktop 8",
+      "category": "Runtimes",
+      "packageId": "Microsoft.DotNet.DesktopRuntime.8",
+      "page": "https://dotnet.microsoft.com/download/dotnet/8.0",
+      "description": "Runtime for .NET desktop apps",
+      "color": "#6845bf",
+      "ninite": true,
+      "version": "8.0.33",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:13+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/m/Microsoft/DotNet/DesktopRuntime/8/8.0.33/Microsoft.DotNet.DesktopRuntime.8.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://download.microsoft.com/download/9d8b4560-78de-40b0-91f9-d0a48dda818b/ce78f5f8-bc7b-4a55-a2c3-862cccd8d9bd/windowsdesktop-runtime-8.0.33-win-arm64.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "452C065E4D030C2F54D757461BD83E787C51378F2529F938FEB30DDA197307DF",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "dotnet9",
+      "name": ".NET Desktop 9",
+      "category": "Runtimes",
+      "packageId": "Microsoft.DotNet.DesktopRuntime.9",
+      "page": "https://dotnet.microsoft.com/download/dotnet/9.0",
+      "description": "Runtime for .NET desktop apps",
+      "color": "#6845bf",
+      "ninite": true,
+      "version": "9.0.22",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:21+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/m/Microsoft/DotNet/DesktopRuntime/9/9.0.22/Microsoft.DotNet.DesktopRuntime.9.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://download.microsoft.com/download/9aa5eafc-67d7-468b-a750-843bc74ef024/3834787b-9675-4659-bd00-db26b2f6541f/windowsdesktop-runtime-9.0.22-win-arm64.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "E5FEB171B747829B9B88B18C754A2B6877FA06FDE5D7297A8FF811B1A800DA66",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "dotnet10",
+      "name": ".NET Desktop 10",
+      "category": "Runtimes",
+      "packageId": "Microsoft.DotNet.DesktopRuntime.10",
+      "page": "https://dotnet.microsoft.com/download/dotnet/10.0",
+      "description": "Runtime for .NET desktop apps",
+      "color": "#6845bf",
+      "ninite": true,
+      "version": "10.0.14",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:26+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/m/Microsoft/DotNet/DesktopRuntime/10/10.0.14/Microsoft.DotNet.DesktopRuntime.10.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://download.microsoft.com/download/9b53b153-e93a-4c89-8049-c7381505cf80/71f0a69e-a1d6-4a79-830a-f1fc950b4c60/windowsdesktop-runtime-10.0.14-win-arm64.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "26858741E5FD3FE02D2C988C7041602FF06203CF4B326C6EF11FCF1D11D17380",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "vcredist",
+      "name": "Visual C++ Redistributable",
+      "category": "Runtimes",
+      "packageId": "Microsoft.VCRedist.2015+.arm64",
+      "page": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist",
+      "description": "Microsoft C++ runtime libraries",
+      "color": "#3868a2",
+      "ninite": true,
+      "version": "14.51.36247.0",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:26+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/m/Microsoft/VCRedist/2015+/arm64/14.51.36247.0/Microsoft.VCRedist.2015+.arm64.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://download.visualstudio.microsoft.com/download/pr/57eef8ae-a341-46c3-b0bc-c041027b54cd/B70EF586669A620A0A30A1156969C05C6A3831DC8F8BC992DA75779D2A92F944/VC_redist.arm64.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "B70EF586669A620A0A30A1156969C05C6A3831DC8F8BC992DA75779D2A92F944",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "name": "Microsoft OpenJDK 21",
+      "category": "Runtimes",
+      "packageId": "Microsoft.OpenJDK.21",
+      "page": "https://learn.microsoft.com/java/openjdk/download",
+      "description": "Microsoft’s build of OpenJDK",
+      "color": "#c34238",
+      "ninite": true,
+      "version": "21.0.13.1021",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:21:16+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f739ac40052c7c73c9c4889458685abd5b5546c6/manifests/m/Microsoft/OpenJDK/21/21.0.13.1021/Microsoft.OpenJDK.21.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.0.2-windows-aarch64.msi#winget",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "EF0BA3A0E10A0ABF2E8F072E9C741B4C9331067F351F27A1360DF0B77EAD11EC",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "powershell",
+      "name": "PowerShell",
+      "category": "Developer tools",
+      "packageId": "Microsoft.PowerShell",
+      "page": "https://github.com/PowerShell/PowerShell/releases",
+      "description": "Shell and automation toolkit",
+      "color": "#2264a4",
+      "ninite": false,
+      "version": "7.6.9.0",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:26+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/m/Microsoft/PowerShell/7.6.9.0/Microsoft.PowerShell.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/PowerShell-7.6.9-win-arm64.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "F29D127A798DA0D3FEC9224171AE4D85453ECB466CE53A957237BCA4008C1D2B",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/PowerShell-7.6.9.msixbundle",
+          "format": "msixbundle",
+          "label": "MSIXBUNDLE",
+          "scope": "",
+          "sha256": "DA75C8AA23EDDA52E888FB586A46B923AB37A7C243719C2E8914B00130C5917A",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "terminal",
+      "name": "Windows Terminal",
+      "category": "Developer tools",
+      "packageId": "Microsoft.WindowsTerminal",
+      "page": "https://github.com/microsoft/terminal/releases",
+      "description": "A home for your command line",
+      "color": "#394b5f",
+      "ninite": false,
+      "version": "1.25.2733.0",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:26+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/m/Microsoft/WindowsTerminal/1.25.2733.0/Microsoft.WindowsTerminal.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/microsoft/terminal/releases/download/v1.25.2733.0/Microsoft.WindowsTerminal_1.25.2733.0_8wekyb3d8bbwe.msixbundle",
+          "format": "msixbundle",
+          "label": "MSIXBUNDLE · user",
+          "scope": "user",
+          "sha256": "CCE6E9CC3C8457FA11CED1D2A7354888C7D6DB83C5ACE5D5891A52C95E3B21DA",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "go",
+      "name": "Go",
+      "category": "Developer tools",
+      "packageId": "GoLang.Go",
+      "page": "https://go.dev/dl/",
+      "description": "Build simple, reliable software",
+      "color": "#00a6c7",
+      "ninite": false,
+      "version": "1.27.0",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:30+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/f3b5a66af55ee88f5eb374131a9449f5aca3f3f2/manifests/g/GoLang/Go/1.27.0/GoLang.Go.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://go.dev/dl/go1.27.0.windows-arm64.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "9259168CDA232152F3EF0C51149E842E93E4F67DF84713B55CA31128518E97E3",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "uv",
+      "name": "uv",
+      "category": "Developer tools",
+      "packageId": "astral-sh.uv",
+      "page": "https://docs.astral.sh/uv/getting-started/installation/",
+      "description": "Fast Python package management",
+      "color": "#7040c4",
+      "ninite": false,
+      "version": "0.13.5",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:30+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/4805b5577b4c97b5ca097231feef48fa9164b020/manifests/a/astral-sh/uv/0.13.5/astral-sh.uv.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-aarch64-pc-windows-msvc.zip",
+          "format": "zip",
+          "label": "ZIP",
+          "scope": "",
+          "sha256": "09F47EDF90726084A70F9426F6E3CA4F46E9BF7CBF23B1716EC64D60B055FAE3",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "7zipnanazip",
+      "name": "NanaZip",
+      "category": "Compression",
+      "packageId": "M2Team.NanaZip",
+      "page": "https://github.com/M2Team/NanaZip/releases",
+      "description": "Modern Windows archive manager",
+      "color": "#217aba",
+      "ninite": false,
+      "version": "7.0.1873.0",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:30+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/4805b5577b4c97b5ca097231feef48fa9164b020/manifests/m/M2Team/NanaZip/7.0.1873.0/M2Team.NanaZip.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/M2Team/NanaZip/releases/download/7.0.1873.0/NanaZip_7.0.1873.0.msixbundle",
+          "format": "msixbundle",
+          "label": "MSIXBUNDLE",
+          "scope": "",
+          "sha256": "2FFE123A634517B393EC04D54F7C1234A0FF9674AC37B119414CA6AE3C458ADF",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "keepassxc",
+      "name": "KeePassXC",
+      "category": "Passwords & storage",
+      "packageId": "KeePassXCTeam.KeePassXC",
+      "page": "https://keepassxc.org/download/#windows",
+      "description": "Offline password vault",
+      "color": "#44853c",
+      "ninite": false,
+      "version": "2.8.0",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:30+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/4805b5577b4c97b5ca097231feef48fa9164b020/manifests/k/KeePassXCTeam/KeePassXC/2.8.0/KeePassXCTeam.KeePassXC.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-ARM64.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "85EB8F60A7780136B82D672B834822B7047E773D824459ACCE4F118C4BFDE1C1",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "localsend",
+      "name": "LocalSend",
+      "category": "Utilities",
+      "packageId": "LocalSend.LocalSend",
+      "page": "https://localsend.org/download",
+      "description": "Share files over your local network",
+      "color": "#199a8e",
+      "ninite": false,
+      "version": "1.18.2",
+      "status": "not-indexed",
+      "checkedAt": "2026-10-26T16:13:30+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/4805b5577b4c97b5ca097231feef48fa9164b020/manifests/l/LocalSend/LocalSend/1.18.2/LocalSend.LocalSend.installer.yaml",
+      "downloads": []
+    },
+    {
+      "id": "rclone",
+      "name": "rclone",
+      "category": "Passwords & storage",
+      "packageId": "Rclone.Rclone",
+      "page": "https://rclone.org/downloads/",
+      "description": "Sync files with cloud storage",
+      "color": "#4973c1",
+      "ninite": false,
+      "version": "1.75.1",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:30+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/4805b5577b4c97b5ca097231feef48fa9164b020/manifests/r/Rclone/Rclone/1.75.1/Rclone.Rclone.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/rclone/rclone/releases/download/v1.75.1/rclone-v1.75.1-windows-arm64.zip",
+          "format": "zip",
+          "label": "ZIP",
+          "scope": "",
+          "sha256": "C3C6CD0424DD49076AD179C30C3F9E5CDE2C004EC07EA9FE6911F23E32EAFE0F",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "syncthing",
+      "name": "Syncthing",
+      "category": "Passwords & storage",
+      "packageId": "Syncthing.Syncthing",
+      "page": "https://syncthing.net/downloads/",
+      "description": "Private peer-to-peer file sync",
+      "color": "#238bba",
+      "ninite": false,
+      "version": "2.1.7",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:38+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/4805b5577b4c97b5ca097231feef48fa9164b020/manifests/s/Syncthing/Syncthing/2.1.7/Syncthing.Syncthing.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/syncthing/syncthing/releases/download/v2.1.7/syncthing-windows-arm64-v2.1.7.zip",
+          "format": "zip",
+          "label": "ZIP",
+          "scope": "",
+          "sha256": "D535FFD611B3AF223DE64BC5DFC60C378881EB13D5C8ECB1431B7407094C15FF",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "mullvad",
+      "name": "Mullvad VPN",
+      "category": "Network & remote",
+      "packageId": "MullvadVPN.MullvadVPN",
+      "page": "https://mullvad.net/download/vpn/windows",
+      "description": "Privacy-focused VPN client",
+      "color": "#bd8e24",
+      "ninite": false,
+      "version": "2026.4",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:38+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/4805b5577b4c97b5ca097231feef48fa9164b020/manifests/m/MullvadVPN/MullvadVPN/2026.4/MullvadVPN.MullvadVPN.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/mullvad/mullvadvpn-app/releases/download/2026.4/MullvadVPN-2026.4_arm64.exe",
+          "format": "exe",
+          "label": "EXE · machine · en-US",
+          "scope": "machine",
+          "sha256": "8D2593BAC4878FE6EA14E0F8B0B6E04239C36FF9506603E5F847245D27A2D2F2",
+          "architecture": "arm64"
+        }
+      ]
+    },
+    {
+      "id": "hiddify",
+      "name": "Hiddify",
+      "category": "Network & remote",
+      "packageId": "Hiddify.Hiddify",
+      "page": "https://github.com/hiddify/hiddify-app/releases",
+      "description": "Multi-protocol proxy client",
+      "color": "#7845b7",
+      "ninite": false,
+      "version": "4.1.1",
+      "status": "not-indexed",
+      "checkedAt": "2026-10-26T16:21:39+00:00",
+      "source": "https://github.com/hiddify/hiddify-app/releases/tag/v4.1.1",
+      "sourceType": "publisher",
+      "note": "",
+      "downloads": []
+    },
+    {
+      "id": "netbird",
+      "name": "NetBird",
+      "category": "Network & remote",
+      "packageId": "Netbird.Netbird",
+      "page": "https://netbird.io/download",
+      "description": "WireGuard-based mesh networking",
+      "color": "#e36826",
+      "ninite": false,
+      "version": "0.81.4",
+      "status": "native",
+      "checkedAt": "2026-10-26T16:13:38+00:00",
+      "source": "https://github.com/microsoft/winget-pkgs/blob/4805b5577b4c97b5ca097231feef48fa9164b020/manifests/n/Netbird/Netbird/0.81.4/Netbird.Netbird.installer.yaml",
+      "downloads": [
+        {
+          "url": "https://github.com/netbirdio/netbird/releases/download/v0.81.4/netbird_installer_0.81.4_windows_arm64.exe",
+          "format": "exe",
+          "label": "EXE · machine",
+          "scope": "machine",
+          "sha256": "D519DA9CDBBF45E91D39A42078BED748CBCE2C662F85699B42E0A7F44FCCD21B",
+          "architecture": "arm64"
+        },
+        {
+          "url": "https://github.com/netbirdio/netbird/releases/download/v0.81.4/netbird_installer_0.81.4_windows_arm64.msi",
+          "format": "msi",
+          "label": "MSI · machine",
+          "scope": "machine",
+          "sha256": "FDB6E4F8F651F509631010920AE85B87C6C3A314E9B751FCCF5483A215643B8D",
+          "architecture": "arm64"
+        }
+      ]
+    }
+  ]
+}

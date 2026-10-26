@@ -1,0 +1,682 @@
+[
+  [
+    "chrome",
+    "Google Chrome",
+    "Web browsers",
+    "Google.Chrome",
+    "https://www.google.com/chrome/",
+    "Fast, familiar browsing",
+    "#4285f4",
+    true
+  ],
+  [
+    "firefox",
+    "Firefox",
+    "Web browsers",
+    "Mozilla.Firefox",
+    "https://www.mozilla.org/firefox/all/desktop-release/",
+    "Independent, privacy-minded browser",
+    "#ff7139",
+    true
+  ],
+  [
+    "edge",
+    "Microsoft Edge",
+    "Web browsers",
+    "Microsoft.Edge",
+    "https://www.microsoft.com/edge/download",
+    "Microsoft’s everyday browser",
+    "#087fce",
+    true
+  ],
+  [
+    "brave",
+    "Brave",
+    "Web browsers",
+    "Brave.Brave",
+    "https://brave.com/download/",
+    "Browsing with built-in ad blocking",
+    "#fb542b",
+    true
+  ],
+  [
+    "vivaldi",
+    "Vivaldi",
+    "Web browsers",
+    "Vivaldi.Vivaldi",
+    "https://vivaldi.com/download/",
+    "A browser that adapts to you",
+    "#ef3939",
+    true
+  ],
+  [
+    "opera",
+    "Opera",
+    "Web browsers",
+    "Opera.Opera",
+    "https://www.opera.com/download",
+    "Browser with integrated tools",
+    "#e60033",
+    true
+  ],
+  [
+    "zoom",
+    "Zoom",
+    "Messaging",
+    "Zoom.Zoom",
+    "https://www.zoom.com/download",
+    "Video meetings and collaboration",
+    "#2d8cff",
+    true
+  ],
+  [
+    "discord",
+    "Discord",
+    "Messaging",
+    "Discord.Discord",
+    "https://discord.com/download",
+    "Community voice and chat",
+    "#5865f2",
+    true
+  ],
+  [
+    "teams",
+    "Microsoft Teams",
+    "Messaging",
+    "Microsoft.Teams",
+    "https://www.microsoft.com/microsoft-teams/download-app",
+    "Meet, chat, and work together",
+    "#6264a7",
+    true
+  ],
+  [
+    "slack",
+    "Slack",
+    "Messaging",
+    "SlackTechnologies.Slack",
+    "https://slack.com/downloads/windows",
+    "Channels for your team",
+    "#611f69",
+    true
+  ],
+  [
+    "telegram",
+    "Telegram",
+    "Messaging",
+    "Telegram.TelegramDesktop",
+    "https://desktop.telegram.org/",
+    "Cloud-based messaging",
+    "#26a5e4",
+    true
+  ],
+  [
+    "thunderbird",
+    "Thunderbird",
+    "Messaging",
+    "Mozilla.Thunderbird",
+    "https://www.thunderbird.net/download/",
+    "Email, calendar, and contacts",
+    "#0a84ff",
+    true
+  ],
+  [
+    "vlc",
+    "VLC media player",
+    "Media",
+    "VideoLAN.VLC",
+    "https://www.videolan.org/vlc/download-windows.html",
+    "Play almost any media file",
+    "#ef7d00",
+    true
+  ],
+  [
+    "foobar2000",
+    "foobar2000",
+    "Media",
+    "PeterPawlowski.foobar2000",
+    "https://www.foobar2000.org/download",
+    "Lightweight, customizable audio",
+    "#424242",
+    true
+  ],
+  [
+    "spotify",
+    "Spotify",
+    "Media",
+    "Spotify.Spotify",
+    "https://www.spotify.com/download/windows/",
+    "Music and podcasts",
+    "#16863c",
+    true
+  ],
+  [
+    "handbrake",
+    "HandBrake",
+    "Media",
+    "HandBrake.HandBrake",
+    "https://handbrake.fr/downloads.php",
+    "Convert and compress video",
+    "#597928",
+    true
+  ],
+  [
+    "obs",
+    "OBS Studio",
+    "Media",
+    "OBSProject.OBSStudio",
+    "https://obsproject.com/download",
+    "Stream and record your screen",
+    "#302e31",
+    true
+  ],
+  [
+    "audacity",
+    "Audacity",
+    "Media",
+    "Audacity.Audacity",
+    "https://www.audacityteam.org/download/windows/",
+    "Record and edit audio",
+    "#0869c5",
+    true
+  ],
+  [
+    "blender",
+    "Blender",
+    "Design & images",
+    "BlenderFoundation.Blender",
+    "https://www.blender.org/download/",
+    "Create in 3D",
+    "#e87d0d",
+    true
+  ],
+  [
+    "gimp",
+    "GIMP",
+    "Design & images",
+    "GIMP.GIMP.3",
+    "https://www.gimp.org/downloads/",
+    "Open-source image editing",
+    "#62594b",
+    true
+  ],
+  [
+    "krita",
+    "Krita",
+    "Design & images",
+    "KDE.Krita",
+    "https://krita.org/en/download/",
+    "Digital painting and illustration",
+    "#b348bd",
+    true
+  ],
+  [
+    "inkscape",
+    "Inkscape",
+    "Design & images",
+    "Inkscape.Inkscape",
+    "https://inkscape.org/release/",
+    "Vector graphics and illustration",
+    "#41464f",
+    true
+  ],
+  [
+    "libreoffice",
+    "LibreOffice",
+    "Documents",
+    "TheDocumentFoundation.LibreOffice",
+    "https://www.libreoffice.org/download/download-libreoffice/",
+    "Documents, spreadsheets, presentations",
+    "#18a35b",
+    true
+  ],
+  [
+    "sumatrapdf",
+    "SumatraPDF",
+    "Documents",
+    "SumatraPDF.SumatraPDF",
+    "https://www.sumatrapdfreader.org/download-free-pdf-viewer",
+    "Small, fast PDF reader",
+    "#c59b0b",
+    true
+  ],
+  [
+    "7zip",
+    "7-Zip",
+    "Compression",
+    "7zip.7zip",
+    "https://www.7-zip.org/download.html",
+    "Small app. Big compression.",
+    "#4b5563",
+    true
+  ],
+  [
+    "peazip",
+    "PeaZip",
+    "Compression",
+    "Giorgiotani.Peazip",
+    "https://peazip.github.io/peazip-64bit.html",
+    "Open-source archive manager",
+    "#559d24",
+    true
+  ],
+  [
+    "winrar",
+    "WinRAR",
+    "Compression",
+    "RARLab.WinRAR",
+    "https://www.rarlab.com/download.htm",
+    "Archive manager · trialware",
+    "#8748a5",
+    true
+  ],
+  [
+    "bitwarden",
+    "Bitwarden",
+    "Passwords & storage",
+    "Bitwarden.Bitwarden",
+    "https://bitwarden.com/download/",
+    "Open-source password manager",
+    "#175ddc",
+    true
+  ],
+  [
+    "1password",
+    "1Password",
+    "Passwords & storage",
+    "AgileBits.1Password",
+    "https://1password.com/downloads/windows/",
+    "Passwords, passkeys, and secrets",
+    "#1769aa",
+    true
+  ],
+  [
+    "dropbox",
+    "Dropbox",
+    "Passwords & storage",
+    "Dropbox.Dropbox",
+    "https://www.dropbox.com/install",
+    "Files synced across devices",
+    "#0061ff",
+    true
+  ],
+  [
+    "googledrive",
+    "Google Drive",
+    "Passwords & storage",
+    "Google.GoogleDrive",
+    "https://www.google.com/drive/download/",
+    "Your files, available everywhere",
+    "#1fa463",
+    true
+  ],
+  [
+    "onedrive",
+    "OneDrive",
+    "Passwords & storage",
+    "Microsoft.OneDrive",
+    "https://www.microsoft.com/microsoft-365/onedrive/download",
+    "Microsoft cloud file sync",
+    "#0875d1",
+    true
+  ],
+  [
+    "wireshark",
+    "Wireshark",
+    "Network & remote",
+    "WiresharkFoundation.Wireshark",
+    "https://www.wireshark.org/download.html",
+    "Look inside your network traffic",
+    "#167da5",
+    true
+  ],
+  [
+    "tailscale",
+    "Tailscale",
+    "Network & remote",
+    "Tailscale.Tailscale",
+    "https://tailscale.com/download/windows",
+    "Connect your devices securely",
+    "#494949",
+    true
+  ],
+  [
+    "wireguard",
+    "WireGuard",
+    "Network & remote",
+    "WireGuard.WireGuard",
+    "https://www.wireguard.com/install/",
+    "Modern VPN tunneling",
+    "#88171a",
+    true
+  ],
+  [
+    "rustdesk",
+    "RustDesk",
+    "Network & remote",
+    "RustDesk.RustDesk",
+    "https://rustdesk.com/",
+    "Open-source remote desktop",
+    "#2373cc",
+    true
+  ],
+  [
+    "teamviewer",
+    "TeamViewer",
+    "Network & remote",
+    "TeamViewer.TeamViewer",
+    "https://www.teamviewer.com/download/windows/",
+    "Remote support and access",
+    "#0874db",
+    true
+  ],
+  [
+    "putty",
+    "PuTTY",
+    "Network & remote",
+    "PuTTY.PuTTY",
+    "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html",
+    "SSH and serial terminal",
+    "#3357a8",
+    true
+  ],
+  [
+    "winscp",
+    "WinSCP",
+    "Network & remote",
+    "WinSCP.WinSCP",
+    "https://winscp.net/eng/download.php",
+    "SFTP and file transfer",
+    "#267c39",
+    true
+  ],
+  [
+    "powertoys",
+    "PowerToys",
+    "Utilities",
+    "Microsoft.PowerToys",
+    "https://github.com/microsoft/PowerToys/releases",
+    "Powerful Windows productivity tools",
+    "#7046c4",
+    true
+  ],
+  [
+    "everything",
+    "Everything",
+    "Utilities",
+    "voidtools.Everything",
+    "https://www.voidtools.com/downloads/",
+    "Find files instantly",
+    "#ce7009",
+    true
+  ],
+  [
+    "windirstat",
+    "WinDirStat",
+    "Utilities",
+    "WinDirStat.WinDirStat",
+    "https://windirstat.net/download.html",
+    "See what’s using your disk space",
+    "#3c8c85",
+    true
+  ],
+  [
+    "python",
+    "Python 3.14",
+    "Developer tools",
+    "Python.Python.3.14",
+    "https://www.python.org/downloads/windows/",
+    "A language for ideas and automation",
+    "#3976a5",
+    true
+  ],
+  [
+    "git",
+    "Git",
+    "Developer tools",
+    "Git.Git",
+    "https://git-scm.com/downloads/win",
+    "Distributed version control",
+    "#ef5033",
+    true
+  ],
+  [
+    "docker",
+    "Docker Desktop",
+    "Developer tools",
+    "Docker.DockerDesktop",
+    "https://docs.docker.com/desktop/setup/install/windows-install/",
+    "Containers on Windows · WSL 2 required",
+    "#1975d4",
+    true
+  ],
+  [
+    "nodejs",
+    "Node.js LTS",
+    "Developer tools",
+    "OpenJS.NodeJS.LTS",
+    "https://nodejs.org/en/download",
+    "JavaScript beyond the browser",
+    "#4c8e35",
+    true
+  ],
+  [
+    "notepadpp",
+    "Notepad++",
+    "Developer tools",
+    "Notepad++.Notepad++",
+    "https://notepad-plus-plus.org/downloads/",
+    "A fast, flexible text editor",
+    "#5d912e",
+    true
+  ],
+  [
+    "sublime",
+    "Sublime Text",
+    "Developer tools",
+    "SublimeHQ.SublimeText.4",
+    "https://www.sublimetext.com/download",
+    "Text editing for code · trialware",
+    "#dd9600",
+    true
+  ],
+  [
+    "vscode",
+    "Visual Studio Code",
+    "Developer tools",
+    "Microsoft.VisualStudioCode",
+    "https://code.visualstudio.com/download",
+    "Your everyday code editor",
+    "#007acc",
+    true
+  ],
+  [
+    "cursor",
+    "Cursor",
+    "Developer tools",
+    "Anysphere.Cursor",
+    "https://cursor.com/downloads",
+    "Code editor with AI assistance",
+    "#3b434e",
+    true
+  ],
+  [
+    "winmerge",
+    "WinMerge",
+    "Developer tools",
+    "WinMerge.WinMerge",
+    "https://winmerge.org/downloads/",
+    "Compare and merge files",
+    "#946a1c",
+    true
+  ],
+  [
+    "dotnet8",
+    ".NET Desktop 8",
+    "Runtimes",
+    "Microsoft.DotNet.DesktopRuntime.8",
+    "https://dotnet.microsoft.com/download/dotnet/8.0",
+    "Runtime for .NET desktop apps",
+    "#6845bf",
+    true
+  ],
+  [
+    "dotnet9",
+    ".NET Desktop 9",
+    "Runtimes",
+    "Microsoft.DotNet.DesktopRuntime.9",
+    "https://dotnet.microsoft.com/download/dotnet/9.0",
+    "Runtime for .NET desktop apps",
+    "#6845bf",
+    true
+  ],
+  [
+    "dotnet10",
+    ".NET Desktop 10",
+    "Runtimes",
+    "Microsoft.DotNet.DesktopRuntime.10",
+    "https://dotnet.microsoft.com/download/dotnet/10.0",
+    "Runtime for .NET desktop apps",
+    "#6845bf",
+    true
+  ],
+  [
+    "vcredist",
+    "Visual C++ Redistributable",
+    "Runtimes",
+    "Microsoft.VCRedist.2015+.arm64",
+    "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist",
+    "Microsoft C++ runtime libraries",
+    "#3868a2",
+    true
+  ],
+  [
+    "java",
+    "Microsoft OpenJDK 21",
+    "Runtimes",
+    "Microsoft.OpenJDK.21",
+    "https://learn.microsoft.com/java/openjdk/download",
+    "Microsoft’s build of OpenJDK",
+    "#c34238",
+    true
+  ],
+  [
+    "powershell",
+    "PowerShell",
+    "Developer tools",
+    "Microsoft.PowerShell",
+    "https://github.com/PowerShell/PowerShell/releases",
+    "Shell and automation toolkit",
+    "#2264a4",
+    false
+  ],
+  [
+    "terminal",
+    "Windows Terminal",
+    "Developer tools",
+    "Microsoft.WindowsTerminal",
+    "https://github.com/microsoft/terminal/releases",
+    "A home for your command line",
+    "#394b5f",
+    false
+  ],
+  [
+    "go",
+    "Go",
+    "Developer tools",
+    "GoLang.Go",
+    "https://go.dev/dl/",
+    "Build simple, reliable software",
+    "#00a6c7",
+    false
+  ],
+  [
+    "uv",
+    "uv",
+    "Developer tools",
+    "astral-sh.uv",
+    "https://docs.astral.sh/uv/getting-started/installation/",
+    "Fast Python package management",
+    "#7040c4",
+    false
+  ],
+  [
+    "7zipnanazip",
+    "NanaZip",
+    "Compression",
+    "M2Team.NanaZip",
+    "https://github.com/M2Team/NanaZip/releases",
+    "Modern Windows archive manager",
+    "#217aba",
+    false
+  ],
+  [
+    "keepassxc",
+    "KeePassXC",
+    "Passwords & storage",
+    "KeePassXCTeam.KeePassXC",
+    "https://keepassxc.org/download/#windows",
+    "Offline password vault",
+    "#44853c",
+    false
+  ],
+  [
+    "localsend",
+    "LocalSend",
+    "Utilities",
+    "LocalSend.LocalSend",
+    "https://localsend.org/download",
+    "Share files over your local network",
+    "#199a8e",
+    false
+  ],
+  [
+    "rclone",
+    "rclone",
+    "Passwords & storage",
+    "Rclone.Rclone",
+    "https://rclone.org/downloads/",
+    "Sync files with cloud storage",
+    "#4973c1",
+    false
+  ],
+  [
+    "syncthing",
+    "Syncthing",
+    "Passwords & storage",
+    "Syncthing.Syncthing",
+    "https://syncthing.net/downloads/",
+    "Private peer-to-peer file sync",
+    "#238bba",
+    false
+  ],
+  [
+    "mullvad",
+    "Mullvad VPN",
+    "Network & remote",
+    "MullvadVPN.MullvadVPN",
+    "https://mullvad.net/download/vpn/windows",
+    "Privacy-focused VPN client",
+    "#bd8e24",
+    false
+  ],
+  [
+    "hiddify",
+    "Hiddify",
+    "Network & remote",
+    "Hiddify.Hiddify",
+    "https://github.com/hiddify/hiddify-app/releases",
+    "Multi-protocol proxy client",
+    "#7845b7",
+    false
+  ],
+  [
+    "netbird",
+    "NetBird",
+    "Network & remote",
+    "Netbird.Netbird",
+    "https://netbird.io/download",
+    "WireGuard-based mesh networking",
+    "#e36826",
+    false
+  ]
+]

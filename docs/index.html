@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#087e6b">
+  <meta name="description" content="Pick your Windows ARM64 apps. Get direct publisher downloads, copy a combined link list, and share your setup. A free, open-source app picker for Snapdragon PCs.">
+  <title>Armite — Your apps. Native to ARM.</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/mark.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#catalog">Skip to apps</a>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="brand" href="./" aria-label="Armite home"><img src="./assets/mark.svg" width="34" height="34" alt="">armite<span class="brand-dot">.</span></a>
+      <span class="nav-label">A little less setup. A lot more native.</span>
+      <a class="github-link" href="https://github.com/alirezaghm83/armite" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .8a11.3 11.3 0 0 0-3.57 22c.56.1.77-.24.77-.54v-2.1c-3.15.68-3.82-1.34-3.82-1.34-.51-1.3-1.25-1.65-1.25-1.65-1.03-.7.08-.69.08-.69 1.14.08 1.73 1.17 1.73 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.59 0-1.24.45-2.25 1.17-3.04-.12-.29-.51-1.44.11-3 0 0 .95-.3 3.11 1.16a10.8 10.8 0 0 1 5.66 0c2.16-1.46 3.11-1.16 3.11-1.16.62 1.56.23 2.71.11 3 .73.79 1.17 1.8 1.17 3.04 0 4.34-2.65 5.3-5.18 5.58.41.35.77 1.04.77 2.1v3.09c0 .3.2.65.78.54A11.3 11.3 0 0 0 12 .8Z"/></svg><span>GitHub</span><span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="status-dot"></span> MADE FOR WINDOWS ON ARM</span>
+        <h1 id="hero-title">Your apps.<br><span>Native to ARM.</span></h1>
+        <p>New PC, familiar favorites. Pick the apps you want and get their Windows ARM64 downloads. All in one place.</p>
+        <div class="hero-facts"><span>✓ Direct publisher links</span><span>✓ Free & open source</span><span>✓ No bundles</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="float-tile tile-code">&lt;/&gt;</div><div class="float-tile tile-play">▶</div><div class="float-tile tile-zip">zip</div>
+        <div class="chip"><div class="chip-inner"><svg viewBox="0 0 40 40"><path d="m10 29 10-19 10 19M14 23h12" fill="none" stroke="currentColor" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>ARM64</strong><span>RIGHT AT HOME.</span></div></div>
+        <span class="art-caption"><span class="status-dot"></span> Less emulation. More possibility.</span>
+      </div>
+    </section>
+    <section class="workspace container" aria-labelledby="picker-title">
+      <div class="catalog-main">
+        <div class="section-heading"><div><span class="step">01 / PICK</span><h2 id="picker-title">Build your everyday.</h2></div><span class="catalog-count" id="catalog-count">Loading apps…</span></div>
+        <div class="toolbar"><label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="search" type="search" placeholder="Find your next favorite app…" aria-label="Search applications"><kbd>/</kbd></label><button id="selected-filter" class="filter-button" aria-pressed="false">Selected <span id="filter-count">0</span></button></div>
+        <div class="categories" id="category-nav" aria-label="Filter apps by category"></div>
+        <div class="catalog-options"><label><input id="show-unavailable" type="checkbox"> Include apps without an indexed ARM64 download</label><button id="select-visible" class="text-button">Select visible</button></div>
+        <div id="catalog" aria-live="polite" aria-busy="true"><div class="loading"><span class="spinner"></span>Finding your native favorites…</div></div>
+        <p id="results-message" class="results-message" role="status"></p>
+        <div class="catalog-note"><span class="note-icon">i</span><p>Only explicitly indexed Windows ARM64 installers can be selected. A missing entry doesn’t mean an app is incompatible. Check its download page for newer builds.</p></div>
+      </div>
+      <aside class="selection-sidebar" id="setup" aria-labelledby="selection-title">
+        <div class="selection-card">
+          <div class="basket-heading"><span class="step">02 / GET</span><span class="live-label"><span class="status-dot"></span> YOUR SETUP</span></div>
+          <h2 id="selection-title">Make it yours<span class="brand-dot">.</span></h2>
+          <p class="basket-subtitle">Your next setup starts here.</p>
+          <div id="selected-list" class="selected-list"></div>
+          <div class="selection-total"><span>Apps selected</span><strong id="selected-count">0</strong></div>
+          <button class="button primary" id="copy-links" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V3H3v13h5"/></svg>Copy download links</button>
+          <div class="secondary-actions"><button id="share-selection" class="button secondary" disabled>↗ Share selection</button><button id="export-list" class="button secondary" disabled>↓ Export</button></div>
+          <button id="clear-selection" class="clear-button" disabled>Clear selection</button>
+          <p class="basket-footnote">One URL per app. Files come from publishers.<br>Download first, then run installers yourself.</p>
+        </div>
+        <div class="starter-packs"><span class="step">A HEAD START</span><h3>Start with a few favorites.</h3><button data-pack="everyday"><span class="pack-icon">☀</span><span><strong>Everyday essentials</strong><small>Browse, play, unzip, protect</small></span><span>+</span></button><button data-pack="developer"><span class="pack-icon">⌘</span><span><strong>The developer desk</strong><small>Code, containers, command line</small></span><span>+</span></button><button data-pack="homelab"><span class="pack-icon">⌁</span><span><strong>The home lab</strong><small>Connect, inspect, sync</small></span><span>+</span></button><p>Starter packs add to your current selection.</p></div>
+      </aside>
+    </section>
+    <section class="how-section container" aria-label="How Armite works"><div><span class="step">LESS FRICTION, MORE DOING</span><h2>A fresh start in three steps.</h2></div><div class="how-grid"><article><span>1</span><h3>Pick your apps</h3><p>Browse familiar categories. Every selectable app has an explicitly indexed ARM64 artifact.</p></article><article><span>2</span><h3>Collect your links</h3><p>Copy all download URLs, export a list for aria2, or share one link to your selection.</p></article><article><span>3</span><h3>Settle into native</h3><p>Download from the publishers and install at your pace. Your setup, your control.</p></article></div></section>
+    <section class="about-section container" id="about"><div><h3>A small tool for a new generation of PCs.</h3><p>Inspired by the simplicity of <a href="https://ninite.com/" target="_blank" rel="noopener noreferrer">Ninite</a>, built independently for Windows ARM64. Armite is a download-link picker, not a combined installer. It doesn’t host or modify application binaries.</p></div><div><h3>Know where your downloads come from.</h3><p>Architecture and installer URLs are sourced from <a href="https://github.com/microsoft/winget-pkgs" target="_blank" rel="noopener noreferrer">Microsoft’s WinGet manifests</a> and publisher release pages. ARM64EC and universal packages are labeled. Each app includes its source record and publisher page. Links are a dated snapshot; verify publisher signatures before running files.</p><span class="updated" id="updated-at"></span></div></section>
+  </main>
+  <footer class="container footer"><a class="brand small" href="./"><img src="./assets/mark.svg" width="24" height="24" alt="">armite.</a><span>Made for your next fresh start.</span><a href="https://github.com/alirezaghm83/armite/issues/new" target="_blank" rel="noopener noreferrer">Suggest an app ↗</a><a href="https://github.com/alirezaghm83/armite" target="_blank" rel="noopener noreferrer">Open source ↗</a></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <button id="mobile-review" class="mobile-review" hidden><span>Your setup <strong id="mobile-count">0</strong></span><span>Review apps →</span></button>
+  <dialog id="export-dialog" aria-labelledby="export-title"><form method="dialog" class="dialog-heading"><div><span class="step">READY WHEN YOU ARE</span><h2 id="export-title">Your download toolkit.</h2></div><button class="close-dialog" aria-label="Close download toolkit">×</button></form><p class="dialog-intro">Copy your links or save a file for your download manager.</p><div class="export-tabs" role="group" aria-label="Export format"><button data-export="links" aria-pressed="true">Download links</button><button data-export="aria2" aria-pressed="false">aria2 input</button><button data-export="share" aria-pressed="false">Shareable link</button></div><label class="sr-only" for="export-output">Generated output</label><textarea id="export-output" rows="10" readonly spellcheck="false"></textarea><p id="export-help" class="export-help"></p><div class="dialog-actions"><button id="download-export" class="button secondary">↓ Save .txt</button><button id="copy-export" class="button primary">Copy to clipboard</button></div></dialog>
+  <noscript><div class="noscript">Enable JavaScript to use the app picker, or <a href="./data/catalog.json">open the download catalog</a>.</div></noscript>
+</body>
+</html>

@@ -1,0 +1,664 @@
+{
+  "checkedAt": "2026-10-26T16:24:10+00:00",
+  "method": "GET with Range bytes=0-511; read at most 512 response bytes, check container magic; not CPU architecture or signature verification",
+  "results": [
+    {
+      "appId": "chrome",
+      "url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi",
+      "checkedAt": "2026-10-26T16:23:16+00:00",
+      "status": 206,
+      "contentType": "application/x-msi",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "firefox",
+      "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/157.0.1/win64-aarch64/en-US/Firefox%20Setup%20157.0.1.exe",
+      "checkedAt": "2026-10-26T16:23:16+00:00",
+      "status": 206,
+      "contentType": "application/x-msdos-program",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "edge",
+      "url": "https://download.microsoft.com/download/2281f47e-9fc3-455e-9fad-1e0eac990e5e/MicrosoftEdgeEnterpriseARM64.msi",
+      "checkedAt": "2026-10-26T16:23:16+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "brave",
+      "url": "https://github.com/brave/brave-browser/releases/download/v1.97.56/BraveBrowserStandaloneSilentSetupArm64.exe",
+      "checkedAt": "2026-10-26T16:23:16+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "brave",
+      "url": "https://github.com/brave/brave-browser/releases/download/v1.97.56/BraveBrowserStandaloneSetupArm64.exe",
+      "checkedAt": "2026-10-26T16:23:16+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "vivaldi",
+      "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.94.arm64.exe",
+      "checkedAt": "2026-10-26T16:23:16+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "opera",
+      "url": "https://get.geo.opera.com/pub/opera/desktop/137.0.6036.39/win/Opera_137.0.6036.39_Setup_arm64.exe",
+      "checkedAt": "2026-10-26T16:23:16+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "zoom",
+      "url": "https://zoom.us/client/7.2.1.48556/ZoomInstallerFull.msi?archType=winarm64",
+      "checkedAt": "2026-10-26T16:23:16+00:00",
+      "status": 206,
+      "contentType": "binary/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "teams",
+      "url": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-arm64/26225.1806.5074.1452/MSTeams-arm64.msix",
+      "checkedAt": "2026-10-26T16:23:22+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "teams",
+      "url": "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-arm64/26225.1806.5074.1452/MSTeams-arm64.msix?p",
+      "checkedAt": "2026-10-26T16:23:24+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "slack",
+      "url": "https://downloads.slack-edge.com/desktop-releases/windows/arm64/4.52.182/Slack.msix",
+      "checkedAt": "2026-10-26T16:23:24+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "telegram",
+      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.3.3/td-setup-win-arm-7.3.3.exe",
+      "checkedAt": "2026-10-26T16:23:24+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "telegram",
+      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.3.3/td-portable-win-arm-7.3.3.zip",
+      "checkedAt": "2026-10-26T16:23:25+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "vlc",
+      "url": "https://download.videolan.org/pub/videolan/vlc/3.0.24/winarm64/vlc-3.0.24-winarm64.exe",
+      "checkedAt": "2026-10-26T16:23:26+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "vlc",
+      "url": "https://download.videolan.org/pub/videolan/vlc/3.0.24/winarm64/vlc-3.0.24-winarm64.msi",
+      "checkedAt": "2026-10-26T16:23:26+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "foobar2000",
+      "url": "https://www.foobar2000.org/files/foobar2000-arm64ec_v2.26.1.exe",
+      "checkedAt": "2026-10-26T16:23:26+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "spotify",
+      "url": "https://download.scdn.co/SpotifyFullSetupARM64.exe",
+      "checkedAt": "2026-10-26T16:23:26+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "handbrake",
+      "url": "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-arm64-Win_GUI.exe",
+      "checkedAt": "2026-10-26T16:23:27+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "obs",
+      "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.0/OBS-Studio-33.0.0-Windows-arm64.zip",
+      "checkedAt": "2026-10-26T16:23:29+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "audacity",
+      "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-win-4.0.1-arm64.msi",
+      "checkedAt": "2026-10-26T16:23:29+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "blender",
+      "url": "https://download.blender.org/release/Blender5.2/blender-5.2.3-windows-arm64.msi",
+      "checkedAt": "2026-10-26T16:23:29+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "libreoffice",
+      "url": "https://download.documentfoundation.org/libreoffice/stable/26.8.1/win/aarch64/LibreOffice_26.8.1_Win_aarch64.msi",
+      "checkedAt": "2026-10-26T16:23:30+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "sumatrapdf",
+      "url": "https://www.sumatrapdfreader.org/dl/rel/3.6.1/SumatraPDF-3.6.1-arm64-install.exe",
+      "checkedAt": "2026-10-26T16:23:30+00:00",
+      "status": 206,
+      "contentType": "application/x-msdownload",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "sumatrapdf",
+      "url": "https://www.sumatrapdfreader.org/dl/rel/3.6.1/SumatraPDF-3.6.1-arm64.zip",
+      "checkedAt": "2026-10-26T16:23:32+00:00",
+      "status": 206,
+      "contentType": "application/zip",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "7zip",
+      "url": "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-arm64.exe",
+      "checkedAt": "2026-10-26T16:23:32+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "bitwarden",
+      "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.1/Bitwarden-Installer-2026.10.1.exe",
+      "checkedAt": "2026-10-26T16:23:32+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "bitwarden",
+      "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.1/Bitwarden-Portable-2026.10.1.exe",
+      "checkedAt": "2026-10-26T16:23:33+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "1password",
+      "url": "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.36.msixbundle",
+      "checkedAt": "2026-10-26T16:23:36+00:00",
+      "status": 206,
+      "contentType": "binary/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "dropbox",
+      "url": "https://edge.dropboxstatic.com/dbx-releng/client/omaha4/Dropbox%20270.4.3312%20Offline%20Installer.arm64.exe",
+      "checkedAt": "2026-10-26T16:23:36+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "dropbox",
+      "url": "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20270.4.3312%20Enterprise%20Installer.arm64.msi",
+      "checkedAt": "2026-10-26T16:23:39+00:00",
+      "status": 206,
+      "contentType": "application/x-msi",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "onedrive",
+      "url": "https://oneclient.sfx.ms/Win/Installers/26.183.0920.0005/arm64/OneDriveSetup.exe",
+      "checkedAt": "2026-10-26T16:23:39+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "wireshark",
+      "url": "https://2.na.dl.wireshark.org/win64/Wireshark-4.6.9-arm64.exe",
+      "checkedAt": "2026-10-26T16:23:39+00:00",
+      "status": 206,
+      "contentType": "application/x-msdos-program",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "tailscale",
+      "url": "https://pkgs.tailscale.com/stable/tailscale-setup-full-1.104.2.exe",
+      "checkedAt": "2026-10-26T16:23:39+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "tailscale",
+      "url": "https://pkgs.tailscale.com/stable/tailscale-setup-1.104.2-arm64.msi",
+      "checkedAt": "2026-10-26T16:23:39+00:00",
+      "status": 206,
+      "contentType": "application/x-msi",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "wireguard",
+      "url": "https://download.wireguard.com/windows-client/wireguard-arm64-1.1.1.msi",
+      "checkedAt": "2026-10-26T16:23:39+00:00",
+      "status": 206,
+      "contentType": "text/html",
+      "ok": false,
+      "fileHeaderMatches": false,
+      "error": "Response does not have the expected file signature; it may be an HTML error or blocked locally."
+    },
+    {
+      "appId": "rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-aarch64.exe",
+      "checkedAt": "2026-10-26T16:23:39+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-aarch64.msi",
+      "checkedAt": "2026-10-26T16:23:39+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "putty",
+      "url": "https://the.earth.li/~sgtatham/putty/0.85/wa64/putty-arm64-0.85-installer.msi",
+      "checkedAt": "2026-10-26T16:23:41+00:00",
+      "status": 206,
+      "contentType": "application/x-msi",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "putty",
+      "url": "https://the.earth.li/~sgtatham/putty/0.85/wa64/putty.zip",
+      "checkedAt": "2026-10-26T16:23:42+00:00",
+      "status": 206,
+      "contentType": "application/zip",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "powertoys",
+      "url": "https://github.com/microsoft/PowerToys/releases/download/v0.101.2362.0/PowerToysUserSetup-0.101.2362.0-arm64.exe",
+      "checkedAt": "2026-10-26T16:23:42+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "powertoys",
+      "url": "https://github.com/microsoft/PowerToys/releases/download/v0.101.2362.0/PowerToysSetup-0.101.2362.0-arm64.exe",
+      "checkedAt": "2026-10-26T16:23:42+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "everything",
+      "url": "https://www.voidtools.com/Everything-1.4.1.1032.ARM64.zip",
+      "checkedAt": "2026-10-26T16:23:44+00:00",
+      "status": 206,
+      "contentType": "application/zip",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "windirstat",
+      "url": "https://github.com/windirstat/windirstat/releases/download/release/v2.9.3/WinDirStat-arm64.msi",
+      "checkedAt": "2026-10-26T16:23:45+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "python",
+      "url": "https://www.python.org/ftp/python/3.14.7/python-3.14.7-arm64.exe",
+      "checkedAt": "2026-10-26T16:23:45+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "python",
+      "url": "https://www.python.org/ftp/python/3.14.7/python-3.14.7-arm64.zip",
+      "checkedAt": "2026-10-26T16:23:46+00:00",
+      "status": 206,
+      "contentType": "application/zip",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "git",
+      "url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/Git-2.56.0.3-arm64.exe",
+      "checkedAt": "2026-10-26T16:23:46+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "docker",
+      "url": "https://desktop.docker.com/win/main/arm64/244472/Docker%20Desktop%20Installer.exe",
+      "checkedAt": "2026-10-26T16:23:47+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream; charset=utf-8",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "nodejs",
+      "url": "https://nodejs.org/dist/v24.22.1/node-v24.22.1-arm64.msi",
+      "checkedAt": "2026-10-26T16:23:47+00:00",
+      "status": 206,
+      "contentType": "application/x-msi",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "notepadpp",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.8.1/npp.8.9.8.1.Installer.arm64.exe",
+      "checkedAt": "2026-10-26T16:23:47+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "notepadpp",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.8.1/npp.8.9.8.1.portable.arm64.zip",
+      "checkedAt": "2026-10-26T16:23:50+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "vscode",
+      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/16507d91be0dc1ce4f94c04d4d0430210b8685d9/VSCodeUserSetup-arm64-1.141.2.exe",
+      "checkedAt": "2026-10-26T16:23:50+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "vscode",
+      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/16507d91be0dc1ce4f94c04d4d0430210b8685d9/VSCodeSetup-arm64-1.141.2.exe",
+      "checkedAt": "2026-10-26T16:23:50+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "cursor",
+      "url": "https://downloads.cursor.com/production/67ac8ff8cc118b1eddcb5f2de564c20cffcae94d/win32/arm64/user-setup/CursorUserSetup-arm64-3.20.14.exe",
+      "checkedAt": "2026-10-26T16:23:50+00:00",
+      "status": 206,
+      "contentType": "application/x-msdos-program",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "cursor",
+      "url": "https://downloads.cursor.com/production/67ac8ff8cc118b1eddcb5f2de564c20cffcae94d/win32/arm64/system-setup/CursorSetup-arm64-3.20.14.exe",
+      "checkedAt": "2026-10-26T16:23:50+00:00",
+      "status": 206,
+      "contentType": "application/x-msdos-program",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "winmerge",
+      "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.58.2/WinMerge-2.16.58.2-ARM64-Setup.exe",
+      "checkedAt": "2026-10-26T16:23:50+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "dotnet8",
+      "url": "https://download.microsoft.com/download/9d8b4560-78de-40b0-91f9-d0a48dda818b/ce78f5f8-bc7b-4a55-a2c3-862cccd8d9bd/windowsdesktop-runtime-8.0.33-win-arm64.exe",
+      "checkedAt": "2026-10-26T16:23:50+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "dotnet9",
+      "url": "https://download.microsoft.com/download/9aa5eafc-67d7-468b-a750-843bc74ef024/3834787b-9675-4659-bd00-db26b2f6541f/windowsdesktop-runtime-9.0.22-win-arm64.exe",
+      "checkedAt": "2026-10-26T16:23:50+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "dotnet10",
+      "url": "https://download.microsoft.com/download/9b53b153-e93a-4c89-8049-c7381505cf80/71f0a69e-a1d6-4a79-830a-f1fc950b4c60/windowsdesktop-runtime-10.0.14-win-arm64.exe",
+      "checkedAt": "2026-10-26T16:23:53+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "vcredist",
+      "url": "https://download.visualstudio.microsoft.com/download/pr/57eef8ae-a341-46c3-b0bc-c041027b54cd/B70EF586669A620A0A30A1156969C05C6A3831DC8F8BC992DA75779D2A92F944/VC_redist.arm64.exe",
+      "checkedAt": "2026-10-26T16:23:53+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "java",
+      "url": "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.0.2-windows-aarch64.msi#winget",
+      "checkedAt": "2026-10-26T16:23:55+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "powershell",
+      "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/PowerShell-7.6.9-win-arm64.msi",
+      "checkedAt": "2026-10-26T16:23:55+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "powershell",
+      "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/PowerShell-7.6.9.msixbundle",
+      "checkedAt": "2026-10-26T16:23:55+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "terminal",
+      "url": "https://github.com/microsoft/terminal/releases/download/v1.25.2733.0/Microsoft.WindowsTerminal_1.25.2733.0_8wekyb3d8bbwe.msixbundle",
+      "checkedAt": "2026-10-26T16:23:55+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "go",
+      "url": "https://go.dev/dl/go1.27.0.windows-arm64.msi",
+      "checkedAt": "2026-10-26T16:23:55+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "uv",
+      "url": "https://github.com/astral-sh/uv/releases/download/0.13.5/uv-aarch64-pc-windows-msvc.zip",
+      "checkedAt": "2026-10-26T16:23:56+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "7zipnanazip",
+      "url": "https://github.com/M2Team/NanaZip/releases/download/7.0.1873.0/NanaZip_7.0.1873.0.msixbundle",
+      "checkedAt": "2026-10-26T16:23:56+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "keepassxc",
+      "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-ARM64.msi",
+      "checkedAt": "2026-10-26T16:23:56+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "rclone",
+      "url": "https://github.com/rclone/rclone/releases/download/v1.75.1/rclone-v1.75.1-windows-arm64.zip",
+      "checkedAt": "2026-10-26T16:24:01+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "syncthing",
+      "url": "https://github.com/syncthing/syncthing/releases/download/v2.1.7/syncthing-windows-arm64-v2.1.7.zip",
+      "checkedAt": "2026-10-26T16:24:01+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "mullvad",
+      "url": "https://github.com/mullvad/mullvadvpn-app/releases/download/2026.4/MullvadVPN-2026.4_arm64.exe",
+      "checkedAt": "2026-10-26T16:24:01+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "netbird",
+      "url": "https://github.com/netbirdio/netbird/releases/download/v0.81.4/netbird_installer_0.81.4_windows_arm64.exe",
+      "checkedAt": "2026-10-26T16:24:01+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "netbird",
+      "url": "https://github.com/netbirdio/netbird/releases/download/v0.81.4/netbird_installer_0.81.4_windows_arm64.msi",
+      "checkedAt": "2026-10-26T16:24:02+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    },
+    {
+      "appId": "gimp",
+      "url": "https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.6-setup.exe",
+      "checkedAt": "2026-10-26T16:27:00+00:00",
+      "status": 206,
+      "contentType": "application/octet-stream",
+      "ok": true,
+      "fileHeaderMatches": true
+    }
+  ]
+}
