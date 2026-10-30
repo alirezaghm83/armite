@@ -98,7 +98,7 @@ tests/                  Selection, export, catalog, resolver tests
 
 Selections are encoded as `#apps=chrome,telegram~1`. IDs are resolved against the local catalog; the URL cannot supply arbitrary executable links. Non-default formats use a catalog index. Catalog updates that change the available variants may change or invalidate an old format index; app IDs remain stable.
 
-Inspired by [Ninite](https://ninite.com/), with independent branding and implementation. Not affiliated with Ninite, Microsoft, or any application publisher. Application names belong to their respective owners. Armite’s small app badges are typographic identifiers, not copied vendor logos.
+Inspired by [Ninite](https://ninite.com/), with independent branding and implementation. Not affiliated with Ninite, Microsoft, or any application publisher. Application names belong to their respective owners. Application artwork is self-hosted; per-app source URLs and collection licenses are recorded in `docs/assets/apps/sources.json` and `docs/assets/apps/NOTICE.md`. UI glyphs use a consistent authored SVG family.
 
 ## Initial verification
 
@@ -106,3 +106,11 @@ Inspired by [Ninite](https://ninite.com/), with independent branding and impleme
 - Visible desktop and 390 px phone-width browser checks covered selection, variant export, share URLs, reload persistence, search, and the mobile setup shortcut.
 - 72 of 73 linked artifact headers matched the expected file type. WireGuard’s download host returned a `Site Unavailable` HTML page in this environment; its ARM64 MSI URL remains source-attributed to the official WinGet manifest.
 - The site’s variable fonts are self-hosted; their individual SIL Open Font Licenses are in `docs/assets/fonts/`.
+
+## Interface refinement (30 October 2026)
+
+The picker now uses self-hosted artwork for all 68 catalog records, including apps hidden by the ARM64 filter. Larger labels and controls, stronger text contrast, wrapping desktop categories, a native phone category selector, and a shorter intro improve scanning. App icons also appear in the selection list. Download records, source dates, architecture claims, URLs, and checksums are unchanged. See `DESIGN.md` and `design/app-picker.md` for the UI conventions.
+
+`python3 scripts/import_icons.py` imports missing artwork and regenerates `docs/icons.js`. Keep original editable SVG assets and license notices. Existing assets are not silently replaced.
+
+Refinement verification: nine Node tests and three Python resolver tests passed. The Impeccable detector’s contrast, small-text, padding, and shadow findings were addressed in one batch. Desktop, tablet, and phone browser checks covered selection, alternate formats, aria2 output, category filtering, and empty-search recovery. The catalog payload itself was not changed.

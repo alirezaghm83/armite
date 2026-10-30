@@ -6,6 +6,6 @@
   "description": "A Ninite-inspired Windows ARM64 app picker, built for GitHub Pages.",
   "scripts": {
     "test": "node --test",
-    "check": "node --check docs/app.js && node --check docs/core.js && node --test"
+    "check": "node --check docs/app.js && node --check docs/core.js && node --check docs/icons.js && node --check docs/ui-icons.js && node --test"
   }
 }

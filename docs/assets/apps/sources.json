@@ -1,0 +1,410 @@
+{
+  "edge": {
+    "file": "edge.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/microsoft-edge.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "e46a379499046d93eb4e3a8639e15efccb0682f9ba78992786a0ade01329d5ce"
+  },
+  "chrome": {
+    "file": "chrome.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/chrome.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "9249b27eea53dccdcbfb26818b68e076a4331f9f03d633f4d76d87c9be8e5774"
+  },
+  "discord": {
+    "file": "discord.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/discord.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "c04059c1d13d99239ebd0b7df807e8c3d2f46439bd18a70c5fd3a0631bd7b310"
+  },
+  "opera": {
+    "file": "opera.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/opera.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "68bf4a5630e75387f79c854c2e0736152e7c539776572f0b44156436c8ee990d"
+  },
+  "vivaldi": {
+    "file": "vivaldi.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/vivaldi.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "d3b91abbecc6603a3bf4a4e86458553460c49156a7c219296b3af26f66a3f369"
+  },
+  "firefox": {
+    "file": "firefox.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/firefox.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "c45a7698dbf9a72a89c20f7c00d2863684a64ba660a42c5513c200d01a780647"
+  },
+  "brave": {
+    "file": "brave.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/brave.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "9a1db1c732f4621f2a4ca4a3f41a4e99f59ba7f25496ec01a0dc3c1fdfca17b5"
+  },
+  "slack": {
+    "file": "slack.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/slack.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "62e556a75b94516fd8dcfa9c8ee4eae76268b4087ee927d91a5f2d3115d54118"
+  },
+  "thunderbird": {
+    "file": "thunderbird.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/thunderbird.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "93320abba2cc712c76168bb5efa0350e200f701253de411b670b4a5a9ad94757"
+  },
+  "vlc": {
+    "file": "vlc.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/bf539287ef5dc18529424a02cccee76175920a6f/Papirus/64x64/apps/vlc.svg",
+    "collection": "Papirus",
+    "sha256": "765da807a99122b43cfa8e36bab1b616f72a14e901ca41c0044302657cca1944"
+  },
+  "teams": {
+    "file": "teams.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/microsoft-teams.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "1ab26279cd8fc9e773d496173ab5db9d28a8610b19f197340a94131e6477292e"
+  },
+  "handbrake": {
+    "file": "handbrake.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/handbrake.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "018f7ac7b8e3210bd0888a93160c91f025a3b32b8e6099b9ff294dc0a196a91e"
+  },
+  "spotify": {
+    "file": "spotify.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/spotify.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "686990a9a97c36746eebfc7cfd1100ef29e07d8f9ada229ab00e34d4298a3dcb"
+  },
+  "telegram": {
+    "file": "telegram.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/telegram.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "29edf9cfe2d4c80eb0acd087312eaabba8f7b4c14a4651ccaab51c35b3bb608c"
+  },
+  "foobar2000": {
+    "file": "foobar2000.ico",
+    "source": "https://www.foobar2000.org/favicon.ico",
+    "collection": "Publisher / project artwork",
+    "sha256": "266b46346f5bae633b6538438b52f8f5b1ab0de3a65197e551f53885e34969d2"
+  },
+  "obs": {
+    "file": "obs.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/bf539287ef5dc18529424a02cccee76175920a6f/Papirus/64x64/apps/obs.svg",
+    "collection": "Papirus",
+    "sha256": "e42e3b552da8cde1617a0b8b08fe680696f04a8f7919322f9c429e9a82104286"
+  },
+  "inkscape": {
+    "file": "inkscape.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/bf539287ef5dc18529424a02cccee76175920a6f/Papirus/64x64/apps/inkscape.svg",
+    "collection": "Papirus",
+    "sha256": "b5e0bb9ef1bf90019970fbd3c7dc26b80ab92587aa36f93153e4fd6eeb0b602b"
+  },
+  "krita": {
+    "file": "krita.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/bf539287ef5dc18529424a02cccee76175920a6f/Papirus/64x64/apps/krita.svg",
+    "collection": "Papirus",
+    "sha256": "b79019be46beefde8875525175340fbd8b4f40ebcc212acca61924db159f4fd1"
+  },
+  "blender": {
+    "file": "blender.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/blender.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "88c58ce2a8b40fe3502ffbafc76fe07287ff5d5cf8307c61faa27dcbde5d5ac2"
+  },
+  "audacity": {
+    "file": "audacity.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/audacity.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "e452f47ce7df87e088bbfbe8073c3385bda59f0f0a4dce8bf0b5c42ab2f5caca"
+  },
+  "libreoffice": {
+    "file": "libreoffice.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/libreoffice.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "59053150fcdb4161cdb087194e538304711b9da6908975300e7683ffb530c13d"
+  },
+  "gimp": {
+    "file": "gimp.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/gimp.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "519f0501d830242840db1aa632a65a2853fd5821c98c3abb5cfac3daa6c1dae5"
+  },
+  "sumatrapdf": {
+    "file": "sumatrapdf.ico",
+    "source": "https://www.sumatrapdfreader.org/favicon.ico",
+    "collection": "Publisher / project artwork",
+    "sha256": "4910410972a7d550f6e483de99a53ede10fdbfa5435122af36736368d5abb04a"
+  },
+  "winrar": {
+    "file": "winrar.ico",
+    "source": "https://www.rarlab.com/favicon.ico",
+    "collection": "Publisher / project artwork",
+    "sha256": "7aec4a643d6846610958cd1796b6c8ed6c120bff4c3a507a8f2ed5a73e9ec6d7"
+  },
+  "peazip": {
+    "file": "peazip.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/bf539287ef5dc18529424a02cccee76175920a6f/Papirus/64x64/apps/peazip.svg",
+    "collection": "Papirus",
+    "sha256": "5fcfe6b15b2700f28424e7ffd76c0cdb50eb37283e47ff45ecdaaac56fb8e1b8"
+  },
+  "onedrive": {
+    "file": "onedrive.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/microsoft-onedrive.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "197fb9f9c83c1e75c4887f6a243521a7703095623614f250b040484d481cbcb8"
+  },
+  "googledrive": {
+    "file": "googledrive.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/google-drive.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "963477d7e4a0b0d8865dd7aec8e27d8fd9c3a4b4f2e5b81f9df8581f9f2eca11"
+  },
+  "1password": {
+    "file": "1password.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/1password.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "3c4fb99b438b5bcd93bd198104b6311cf4786c413293894f3574602852551a7a"
+  },
+  "tailscale": {
+    "file": "tailscale.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/tailscale.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "cfa3645dcf2f595b9219cf8b0a67beced7fb0f025425859820ba044d1041ad98"
+  },
+  "7zip": {
+    "file": "7zip.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/7zip.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "8a49e0cef8359be9140d8f2e26ca281d5d5ac55ee4c020c1e50c4478837c5e2c"
+  },
+  "bitwarden": {
+    "file": "bitwarden.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/bitwarden.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "6fd26b78565e0a7f416f8512de904d7f827fd02898b48e3eba94ae6f2b21f3e7"
+  },
+  "dropbox": {
+    "file": "dropbox.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/dropbox.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "16fd819b4f0deac21770d225828f8e0789492f9209a0984a850169776778a43f"
+  },
+  "winscp": {
+    "file": "winscp.ico",
+    "source": "https://winscp.net/favicon.ico",
+    "collection": "Publisher / project artwork",
+    "sha256": "faab7ea7fdaec3eaead3fea26121e64a2c3f4bd041c44b3b1257702cd45aea33"
+  },
+  "everything": {
+    "file": "everything.ico",
+    "source": "https://www.voidtools.com/favicon.ico",
+    "collection": "Publisher / project artwork",
+    "sha256": "ca8be8b4161305bee99afa076ba52e34b2ffe3431626d644a144e34d97a1eb41"
+  },
+  "rustdesk": {
+    "file": "rustdesk.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/rustdesk.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "f14e275f8b60adde7a026a54a44a4c5b79ff73ddbc21bcc7a338af04563029ce"
+  },
+  "git": {
+    "file": "git.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/git.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "85e3e8c8e95285f4f4007fb29e3adb1ea85a6c0390aa706389e5c1aa9e6ac31b"
+  },
+  "wireguard": {
+    "file": "wireguard.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/wireguard.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "900c0e96c80d0afb010fa490cb794de761b39cce26437b1f35a13641cfeb7c89"
+  },
+  "teamviewer": {
+    "file": "teamviewer.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/bf539287ef5dc18529424a02cccee76175920a6f/Papirus/64x64/apps/teamviewer.svg",
+    "collection": "Papirus",
+    "sha256": "a6e950079a3f1dceac9286518e207e993ab93289345128656d7c7948b9127a9f"
+  },
+  "windirstat": {
+    "file": "windirstat.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/windirstat.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "a19d2073c262800e5c8bf76d733bbbf96c87bb3438d38fba389d0d8b89be0fd6"
+  },
+  "putty": {
+    "file": "putty.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/putty.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "06b34263735e53a5fdf33cc4778b79a6f407030e23d83aecd1014a5cd17be0fa"
+  },
+  "python": {
+    "file": "python.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/python.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "38a2dbbae6c06ef6d2dcf9d02a11338505d0a0c7c3f2c376b8d86908d81cfbc5"
+  },
+  "winmerge": {
+    "file": "winmerge.ico",
+    "source": "https://winmerge.org/favicon.ico",
+    "collection": "Publisher / project artwork",
+    "sha256": "e8f24941121ae542fe7f9a3be9477c7c991cc91e4f8700cc98d5c385303a43ac"
+  },
+  "notepadpp": {
+    "file": "notepadpp.ico",
+    "source": "https://notepad-plus-plus.org/favicon.ico",
+    "collection": "Publisher / project artwork",
+    "sha256": "7127f9be06e72e9ebbdbef1926ee01c94f25b6d5cbe26f9f758c1563aaa962ab"
+  },
+  "dotnet8": {
+    "file": "dotnet8.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/dotnet.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "9c3a414cec70d4cbafb6d568176db019e32388c1cb0f7c1ca6379bf513ae4ae0"
+  },
+  "dotnet10": {
+    "file": "dotnet10.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/dotnet.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "9c3a414cec70d4cbafb6d568176db019e32388c1cb0f7c1ca6379bf513ae4ae0"
+  },
+  "dotnet9": {
+    "file": "dotnet9.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/dotnet.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "9c3a414cec70d4cbafb6d568176db019e32388c1cb0f7c1ca6379bf513ae4ae0"
+  },
+  "sublime": {
+    "file": "sublime.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/bf539287ef5dc18529424a02cccee76175920a6f/Papirus/64x64/apps/sublime-text.svg",
+    "collection": "Papirus",
+    "sha256": "5d80c224648e1397c176903d670e0b8f0790bc0ab0dc2df652456fb9a533cfb7"
+  },
+  "docker": {
+    "file": "docker.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/docker.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "7de45e1ea203da32a040c257f47cd39a5711b3a200d27ec72dbccbc5efb1590b"
+  },
+  "cursor": {
+    "file": "cursor.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/bf539287ef5dc18529424a02cccee76175920a6f/Papirus/64x64/apps/cursor.svg",
+    "collection": "Papirus",
+    "sha256": "7debb07c42e2c22b4ad238a6d489414bcaab88a80edbcd56848f899ebfacf458"
+  },
+  "vscode": {
+    "file": "vscode.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/visual-studio-code.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "9678d02f8de50711a9fa468941b9a3acb76aab392518ada8a6b7fe26c5bd0830"
+  },
+  "nodejs": {
+    "file": "nodejs.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/nodejs-alt.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "89a98a8e83640a233a1d522f36b42921c4e7dcc05ea972df61a730e8442fb9de"
+  },
+  "uv": {
+    "file": "uv.ico",
+    "source": "https://docs.astral.sh/uv/assets/favicon.ico",
+    "collection": "Publisher / project artwork",
+    "sha256": "5803113a3690424c38c1f67022f0eb6d4d97db10bf4fd7c7cd09b8a83d21a81b"
+  },
+  "vcredist": {
+    "file": "vcredist.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+    "collection": "Publisher / project artwork",
+    "sha256": "7ff8253551235e3a6b002a7c2bd6e3190d85113a64fcb40f2254473caeb025d4"
+  },
+  "7zipnanazip": {
+    "file": "7zipnanazip.png",
+    "source": "https://raw.githubusercontent.com/M2Team/NanaZip/main/Assets/NanaZip.png",
+    "collection": "Publisher / project artwork",
+    "sha256": "c045244c7508d6a81d1cffa2aa17673a21a688eaeb635978939903d6b37d5138"
+  },
+  "keepassxc": {
+    "file": "keepassxc.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/keepassxc.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "665e6c4a63668c2d7c69a68205b507f383598425656af3db576017891e418589"
+  },
+  "java": {
+    "file": "java.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/java.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "de7fcfb88f7deb2761f6dd8f8625f8ff2aafdb637cfb48707b029e62a22dcbad"
+  },
+  "terminal": {
+    "file": "terminal.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/terminal.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "242c44f08a64a261d31eba9f8b2bae49951c0db15d9cbd4b4ff548e57c126898"
+  },
+  "go": {
+    "file": "go.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/golang.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "33e31a3d049683755ceb07b4a6abe830b2ee02e6ffeee408fe705ef078d3849e"
+  },
+  "powershell": {
+    "file": "powershell.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/powershell.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "99b043612bd98e78d6e9b76dcb33545f52b880fd9484c443b603335259954ded"
+  },
+  "rclone": {
+    "file": "rclone.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/rclone.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "8a7b0d1945fe81d23ca012bf23b9421a985ccfbb93404307ef5e944f6f5b1d8c"
+  },
+  "syncthing": {
+    "file": "syncthing.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/syncthing.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "65d1430f7522bea0507259929f0033d7c62539d14757d7c6f5b62574eb4da2d3"
+  },
+  "mullvad": {
+    "file": "mullvad.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/mullvad-vpn.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "e3e4c1f4a3be54cd9b3418cf7bf0567309e584e3da2f8188fecff11a6a54d973"
+  },
+  "localsend": {
+    "file": "localsend.svg",
+    "source": "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/bf539287ef5dc18529424a02cccee76175920a6f/Papirus/64x64/apps/localsend_app.svg",
+    "collection": "Papirus",
+    "sha256": "26e6401a3183f3c94d37aaf152448140847ee8d4863fa5483a7021f76a1c3b96"
+  },
+  "netbird": {
+    "file": "netbird.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/netbird.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "afe6ae99e35a60153d080e989b549f6f5f7c72a8f220afc1e3864fb48d5059ed"
+  },
+  "hiddify": {
+    "file": "hiddify.svg",
+    "source": "https://raw.githubusercontent.com/hiddify/hiddify-app/main/assets/images/logo.svg",
+    "collection": "Publisher / project artwork",
+    "sha256": "bbd00abbfdc5cea77aafdd95f2a63d8f64a04acfde9c175b48fe029e4d1be9e6"
+  },
+  "powertoys": {
+    "file": "powertoys.png",
+    "source": "https://raw.githubusercontent.com/microsoft/PowerToys/main/doc/images/icons/PowerToys%20icon/PNG/PowerToysAppList.targetsize-64.png",
+    "collection": "Publisher / project artwork",
+    "sha256": "ef99167b73ab043b5e7b8fa76439d5a4d69070dcace8ec3cac000e67262d18ff"
+  },
+  "wireshark": {
+    "file": "wireshark.ico",
+    "source": "https://www.wireshark.org/favicon.ico",
+    "collection": "Publisher / project artwork",
+    "sha256": "b867661c7a0e86763b4bb55c91e455a759cfbf6e21b07d0808fba8367c1e897a"
+  },
+  "zoom": {
+    "file": "zoom.svg",
+    "source": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/83f32e08257b66fbd971ac8d7645f5b38d52e85d/svg/zoom.svg",
+    "collection": "Dashboard Icons",
+    "sha256": "02a7a0b2028eb5ab7a9259ec0f9e59e8293244691b535aefdeb2b106023f760c"
+  }
+}

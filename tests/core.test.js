@@ -56,3 +56,17 @@ test('published catalog has unique IDs, source evidence, HTTPS Windows artifacts
   }
  }
 });
+
+test('every catalog app has self-hosted artwork with matching provenance', async()=>{
+ const {appIcons}=await import('../docs/icons.js');
+ const {createHash}=await import('node:crypto');
+ const catalog=JSON.parse(readFileSync(new URL('../docs/data/catalog.json',import.meta.url)));
+ const sources=JSON.parse(readFileSync(new URL('../docs/assets/apps/sources.json',import.meta.url)));
+ for(const app of catalog.apps){
+  assert.match(appIcons[app.id] || '',/^[a-z0-9-]+\.(svg|png|ico)$/,app.id);
+  const file=readFileSync(new URL('../docs/assets/apps/'+appIcons[app.id],import.meta.url));
+  assert.ok(file.length>0,app.id);assert.equal(sources[app.id].file,appIcons[app.id]);
+  assert.match(sources[app.id].source,/^https:\/\//);
+  assert.equal(createHash('sha256').update(file).digest('hex'),sources[app.id].sha256,app.id);
+ }
+});

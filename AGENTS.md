@@ -2,6 +2,7 @@
 
 - Static, buildless site in `docs/`, served by GitHub Pages from `main /docs`.
 - No framework, bundler, server, API key, or runtime third-party API is required.
+- UI guidance: `DESIGN.md` and `design/app-picker.md`. Keep application artwork self-hosted, preserve `docs/assets/apps/sources.json` provenance and license notices, and regenerate `docs/icons.js` with `python3 scripts/import_icons.py` only for missing artwork. UI glyphs live in `docs/ui-icons.js`.
 - Keep `docs/data/catalog.json` checked in; the browser must never resolve latest releases itself.
 - Source configuration: `data/sources.json`. Refresh with `python3 scripts/refresh_catalog.py` (or `--only id1,id2`). Inspect diffs before committing.
 - Accept explicit Windows ARM64 artifacts from publisher pages or ARM64 WinGet entries. Never infer native support from a Linux/macOS ARM filename or silently substitute x64. Withhold conflicting architecture filenames. Label ARM64EC and universal packages.
