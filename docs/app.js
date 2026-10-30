@@ -24,7 +24,7 @@ function icon(app, eager = false) {
 }
 function directDownloadLink(file) {
   const anchor = link('', file.url, 'direct-link');
-  anchor.append(uiIcon('download'), document.createTextNode(file.format.toUpperCase()));
+  anchor.append(uiIcon('download'), document.createTextNode('Download '+file.format.toUpperCase()));
   return anchor;
 }
 function renderShowcase() {
@@ -78,7 +78,7 @@ function renderApp(app) {
     if(app.downloads.length>1) {
       const select=node('select','variant-select');select.setAttribute('aria-label',app.name+' download format');
       app.downloads.forEach((download,i)=>{const option=node('option','',download.label);option.value=String(i);option.selected=i===index;select.append(option);});
-      select.addEventListener('change',()=>{const i=Number(select.value);if(state.selection.has(app.id)){state.selection.set(app.id,i);persist();renderBasket();}const direct=row.querySelector('.direct-link');direct.href=app.downloads[i].url;direct.replaceChildren(uiIcon('download'),document.createTextNode(app.downloads[i].format.toUpperCase()));});info.append(select);
+      select.addEventListener('change',()=>{const i=Number(select.value);if(state.selection.has(app.id)){state.selection.set(app.id,i);persist();renderBasket();}const direct=row.querySelector('.direct-link');direct.href=app.downloads[i].url;direct.replaceChildren(uiIcon('download'),document.createTextNode('Download '+app.downloads[i].format.toUpperCase()));});info.append(select);
     }
   }
   info.append(links);
@@ -132,7 +132,7 @@ function bindEvents() {
   $('#selected-filter').addEventListener('click',()=>{state.onlySelected=!state.onlySelected;$('#selected-filter').setAttribute('aria-pressed',String(state.onlySelected));renderCatalog();});
   $('#select-visible').addEventListener('click',()=>{filtered().filter(a=>artifact(a)).forEach(a=>{if(!state.selection.has(a.id))state.selection.set(a.id,0);});persist();renderBasket();renderCatalog();toast('Visible ARM64 apps added to your setup.');});
   $('#clear-selection').addEventListener('click',()=>{state.selection.clear();persist();renderBasket();renderCatalog();toast('Selection cleared. A fresh start.');});
-  $('#mobile-review').addEventListener('click',()=>$('#setup').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'}));
+  $('#mobile-review').addEventListener('click',()=>$('#setup-dialog').showModal());
   $('#copy-links').addEventListener('click',()=>copy(downloadLinks(state.apps,state.selection),'Download links copied. Ready for your download manager.','links'));
   $('#share-selection').addEventListener('click',()=>copy(shareUrl(),'Selection link copied. Share your setup anywhere.','share'));
   $('#export-list').addEventListener('click',()=>openExport());
@@ -141,7 +141,7 @@ function bindEvents() {
   $('#copy-export').addEventListener('click',()=>copy($('#export-output').value,'Copied to clipboard.',state.exportMode));
   $('#download-export').addEventListener('click',()=>{const blob=new Blob([$('#export-output').value+'\n'],{type:'text/plain;charset=utf-8'}), url=URL.createObjectURL(blob), a=node('a');a.href=url;a.download=state.exportMode==='aria2'?'armite-downloads.txt':state.exportMode==='share'?'armite-selection.txt':'armite-links.txt';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);});
   window.addEventListener('hashchange',()=>{if(!new URLSearchParams(location.hash.slice(1)).has('apps'))return;state.selection=decodeSelection(location.hash,state.apps);persist();renderBasket();renderCatalog();});
-  document.addEventListener('keydown',event=>{if(event.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!$('#export-dialog').open){event.preventDefault();$('#search').focus();}});
+  document.addEventListener('keydown',event=>{if(event.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!document.querySelector('dialog[open]')){event.preventDefault();$('#search').focus();}});
 }
 async function init() {
   try {

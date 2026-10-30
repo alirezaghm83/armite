@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-30T16:00:00Z",
+  "title": "Design System: Armite",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "collection-tray",
+        "value": "0 8px 24px rgb(0 0 0 / .16)",
+        "purpose": "Lift the selection tray above the index."
+      }
+    ],
+    "motion": [
+      {
+        "name": "tray-in",
+        "value": "180ms ease-out",
+        "purpose": "Selection feedback; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "760px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Copy selected download links.",
+      "html": "<button class=\"primary\">Copy download links</button>",
+      "css": ".primary{background:#20251a;color:#f3f2ea;border:0;border-radius:0;min-height:44px;padding:10px 15px;font:600 13px sans-serif}.primary:hover{background:#414c30}.primary:focus-visible{outline:2px solid #3457c9;outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Editorial industrial software index",
+    "overview": "Large ink masthead, a warm reading surface and flat ruled rows make software discovery direct and recognizable.",
+    "keyCharacteristics": [
+      "Oversized measured typography",
+      "Real application artwork",
+      "Category rail",
+      "Collection tray"
+    ],
+    "dos": [
+      "Preserve source accuracy and export flows",
+      "Use icons for recognition"
+    ],
+    "donts": [
+      "Do not restore repetitive category cards",
+      "Do not add decorative imagery"
+    ]
+  }
+}

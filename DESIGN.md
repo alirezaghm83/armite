@@ -1,19 +1,66 @@
-# Armite design system
+---
+name: Armite
+description: An editorial software index for Windows ARM64.
+colors:
+  ink: "#191c19"
+  paper: "#f3f2ea"
+  citron: "#d8ed91"
+  selected: "#e6edbe"
+  focus: "#3457c9"
+typography:
+  display:
+    fontFamily: "Manrope, sans-serif"
+    fontSize: "5.25rem"
+    fontWeight: 650
+    lineHeight: 1.02
+    letterSpacing: "-.04em"
+  body:
+    fontFamily: "DM Sans, sans-serif"
+    fontSize: "1rem"
+rounded:
+  flat: "0px"
+spacing:
+  row: "16px"
+  desktop-gutter: "40px"
+  phone-gutter: "18px"
+components:
+  button-primary:
+    backgroundColor: "#20251a"
+    textColor: "{colors.paper}"
+    rounded: "{rounded.flat}"
+    height: "44px"
+---
 
-The incumbent visual identity is a quiet, light tool for collecting Windows ARM64 app downloads: teal accent, green-tinted neutral surfaces, Manrope headings, DM Sans controls and body. Preserve that identity when refining this project.
+# Armite — editorial software index
 
-## Tokens
+## Overview
 
-- Text: `--ink` #19372e; secondary copy `--muted` #586e63; supporting metadata `--subtle` #5c7063.
-- Accent: `--green` #087e6b; pressed/strong link color #075d50; selected background #eef8f1.
-- Surfaces: page #f7f9f7; panels #ffffff; dividers #dce5df.
-- Type: 48 px desktop / 38 px phone heading; 25 px section headings; 14–15 px app names; 12–13 px descriptions/actions; 12 px architecture/version metadata. Use rem-equivalent browser scaling and avoid shrinking app names for density.
-- Spacing: 4 px base rhythm; 18 px app-row padding; 24 px category gaps; 32 px workspace gap. Category panels use a single 1 px border and 14 px radius, not a shadow.
-- Controls: native checkboxes and selects; shared 44 px button minimum; visible 2 px teal focus outlines; selected, hover, disabled, loading, error, and empty states.
-- UI icons: consistent authored SVG strokes in `docs/ui-icons.js`. App identities: locally served original/community artwork, with provenance in `docs/assets/apps/sources.json` and licensing in its NOTICE file.
+Premium software publication / industrial product index. Supersedes the teal category-card system. The catalog is visible by default; app artwork carries recognition rather than decoration.
 
-## Responsive structure
+## Colors
 
-The main picker and sticky selection sidebar share the desktop workspace. Category controls wrap rather than scrolling horizontally. Below 680 px, categories use a native select, the catalog becomes one column, and a bottom shortcut brings the selection panel into view. Keep icons and controls legible rather than compressing two app columns onto a phone.
+Warm paper against ink; citron for masthead emphasis and selection. The deliberate paper/citron relationship gives the catalog a quiet reading surface. Blue marks keyboard focus.
 
-The matching surface brief is `design/app-picker.md`.
+## Typography
+
+Self-hosted Manrope for measured display type; DM Sans for controls and app information. Heading 84 px desktop, 54 px phone; section titles 34/30 px; app names 15–16 px; descriptions 13 px. Supporting controls/data 11–13 px.
+
+## Layout
+
+Full-width dark masthead, narrow sticky category rail, uninterrupted ruled app rows. At 760 px the rail becomes a native category select and app rows stack. Desktop gutters 40 px; phone gutters 18 px. Starter packs remain available before selection.
+
+## Elevation & Depth
+
+Use depth only for the fixed collection tray and native modal overlays. A 180 ms tray entrance and restrained row hover transitions supply feedback. Respect reduced motion.
+
+## Shapes
+
+Flat edges and fine rules. The brand mark retains a small 3 px corner. Avoid decorative containers around categories or individual apps.
+
+## Components
+
+Selecting apps reveals a compact tray; review opens selection controls in a native dialog. Keep visible focus, native checkboxes, format selection, explicit Download actions and publisher links. Icons and provenance remain self-hosted and unchanged.
+
+## Do's and Don'ts
+
+Preserve all catalog facts, source dates, hash sharing, exports and checksums. Avoid gradients, repetitive cards, floating icon tiles and decorative imagery. Baseline controls live in `docs/styles.css`; replacement composition and tokens in `docs/redesign.css`. Task decisions are in `design/app-picker.md`.
